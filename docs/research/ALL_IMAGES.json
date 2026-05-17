@@ -1,0 +1,56 @@
+[
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/linkedin.svg",
+    "alt": "linkedin",
+    "width": 20,
+    "height": 21
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/facebook.svg",
+    "alt": "facebook",
+    "width": 20,
+    "height": 21
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/instagram.svg",
+    "alt": "instagram",
+    "width": 20,
+    "height": 21
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/youtube.svg",
+    "alt": "youtube",
+    "width": 20,
+    "height": 15
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/wechat.svg",
+    "alt": "wechat",
+    "width": 22,
+    "height": 21
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/xiaohongshu.svg",
+    "alt": "xiaohongshu",
+    "width": 20,
+    "height": 20
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/footer/web-accessibility-conformance-tc.png",
+    "alt": "無障礙網頁",
+    "width": 88,
+    "height": 31
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/footer/wcag2.1AA-v.png",
+    "alt": "（WCAG）2.1 AA級別標準",
+    "width": 368,
+    "height": 130
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/chatbot-icon.png",
+    "alt": "",
+    "width": 149,
+    "height": 149
+  }
+]

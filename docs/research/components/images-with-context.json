@@ -1,0 +1,146 @@
+[
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/linkedin.svg",
+    "alt": "linkedin",
+    "width": 20,
+    "height": 21,
+    "parentClasses": "w-5 | hover:opacity-70 | transition-all ease-in-out duration-200",
+    "parentTag": "A",
+    "grandParentClasses": "flex items-center gap-x-4",
+    "computedStyle": {
+      "width": "20px",
+      "height": "21px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/facebook.svg",
+    "alt": "facebook",
+    "width": 20,
+    "height": 21,
+    "parentClasses": "w-5 | hover:opacity-70 | transition-all ease-in-out duration-200",
+    "parentTag": "A",
+    "grandParentClasses": "flex items-center gap-x-4",
+    "computedStyle": {
+      "width": "20px",
+      "height": "21px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/instagram.svg",
+    "alt": "instagram",
+    "width": 20,
+    "height": 21,
+    "parentClasses": "w-5 | hover:opacity-70 | transition-all ease-in-out duration-200",
+    "parentTag": "A",
+    "grandParentClasses": "flex items-center gap-x-4",
+    "computedStyle": {
+      "width": "20px",
+      "height": "21px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/youtube.svg",
+    "alt": "youtube",
+    "width": 20,
+    "height": 15,
+    "parentClasses": "w-5 | hover:opacity-70 | transition-all ease-in-out duration-200",
+    "parentTag": "A",
+    "grandParentClasses": "flex items-center gap-x-4",
+    "computedStyle": {
+      "width": "20px",
+      "height": "15px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/wechat.svg",
+    "alt": "wechat",
+    "width": 22,
+    "height": 21,
+    "parentClasses": "wechat | w-5 | hover:opacity-70 | cursor-pointer | transition-all ease-in-out duration-200",
+    "parentTag": "DIV",
+    "grandParentClasses": "flex items-center gap-x-4",
+    "computedStyle": {
+      "width": "20px",
+      "height": "19.0781px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/social-media/xiaohongshu.svg",
+    "alt": "xiaohongshu",
+    "width": 20,
+    "height": 20,
+    "parentClasses": "w-5 | hover:opacity-70 | transition-all ease-in-out duration-200",
+    "parentTag": "A",
+    "grandParentClasses": "flex items-center gap-x-4",
+    "computedStyle": {
+      "width": "20px",
+      "height": "20px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/footer/web-accessibility-conformance-tc.png",
+    "alt": "無障礙網頁",
+    "width": 88,
+    "height": 31,
+    "parentClasses": "flex gap-x-3 items-center",
+    "parentTag": "DIV",
+    "grandParentClasses": "text-white",
+    "computedStyle": {
+      "width": "88px",
+      "height": "31px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/footer/wcag2.1AA-v.png",
+    "alt": "（WCAG）2.1 AA級別標準",
+    "width": 368,
+    "height": 130,
+    "parentClasses": "",
+    "parentTag": "A",
+    "grandParentClasses": "flex gap-x-3 items-center",
+    "computedStyle": {
+      "width": "88px",
+      "height": "31.0781px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  },
+  {
+    "src": "https://www.hkengage.gov.hk/assets/images/chatbot-icon.png",
+    "alt": "",
+    "width": 149,
+    "height": 149,
+    "parentClasses": "logo-group svelte-17ra1as",
+    "parentTag": "DIV",
+    "grandParentClasses": "icon svelte-17ra1as icon-right",
+    "computedStyle": {
+      "width": "80px",
+      "height": "80px",
+      "objectFit": "fill",
+      "borderRadius": "0px",
+      "position": "static"
+    }
+  }
+]

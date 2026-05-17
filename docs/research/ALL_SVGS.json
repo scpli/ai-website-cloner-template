@@ -1,0 +1,278 @@
+[
+  {
+    "index": 0,
+    "parentInfo": "A.inline-block | w-[140px] | text-dark-grey-100",
+    "viewBox": "0 0 700 390.07",
+    "outerHTML": "<svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"#767676\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"#767676\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"#767676\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"#767676\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"#767676\"></path>\n "
+  },
+  {
+    "index": 1,
+    "parentInfo": "BUTTON.",
+    "viewBox": "0 0 15 17",
+    "outerHTML": "<svg width=\"15\" height=\"17\" viewBox=\"0 0 15 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2.7183 10.5878C0.737069 7.93158 1.28423 4.1722 3.94043 2.19096C6.59662 0.209725 10.356 0.756887 12.3372 3.41308C14.3185 6.06928 13.7713 9.82866 11.1151 11.8099C8.45892 13.7911 4.69954 13.244 2.7183 10.5878ZM3.34254 1.38938C0.243641 3.70082 -0.394715 8.08677 1.91673 11.1857C4.15098 14.1811 8.3235 14.8775 11.3984 12.8332L14.199 16.5879L15.0006 15.99L12.1902 12.2223C14.8719 9.83335 15.3263 5.74791 13.1388 2.81519C10.8274 -0.283702 6.44143 -0.922059 3.34254 1.38938Z\" class=\"transition-all ease-in-out duration-200\" :fill=\"open ? '#363636' : 'white'\" fill=\"#363636\"></path>\n                                </svg>"
+  },
+  {
+    "index": 2,
+    "parentInfo": "BUTTON.group | relative | flex items-center gap-2 | px-2",
+    "viewBox": "0 0 10 6",
+    "outerHTML": "<svg width=\"10\" height=\"6\" viewBox=\"0 0 10 6\" fill=\"none\" class=\"transition-all ease-in-out duration-100 group-hover:rotate-180\" xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path d=\"M1 1L5 5L9 1\" stroke=\"#363636\" :stroke=\"open ? '#363636' : 'white'\" stroke-width=\"1.5\" stroke-linecap=\"round\" class=\"transition-all ease-in-out duration-200\" stroke-linejoin=\"round\"></path>\n                                </svg>"
+  },
+  {
+    "index": 3,
+    "parentInfo": "A.w-[90px] | text-black",
+    "viewBox": "0 0 700 390.07",
+    "outerHTML": "<svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"#767676\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"#767676\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"#767676\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"#767676\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"#767676\"></path>\n "
+  },
+  {
+    "index": 4,
+    "parentInfo": "BUTTON.pr-0.5",
+    "viewBox": "0 0 15 17",
+    "outerHTML": "<svg width=\"20\" height=\"22\" viewBox=\"0 0 15 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2.7183 10.5878C0.737069 7.93158 1.28423 4.1722 3.94043 2.19096C6.59662 0.209725 10.356 0.756887 12.3372 3.41308C14.3185 6.06928 13.7713 9.82866 11.1151 11.8099C8.45892 13.7911 4.69954 13.244 2.7183 10.5878ZM3.34254 1.38938C0.243641 3.70082 -0.394715 8.08677 1.91673 11.1857C4.15098 14.1811 8.3235 14.8775 11.3984 12.8332L14.199 16.5879L15.0006 15.99L12.1902 12.2223C14.8719 9.83335 15.3263 5.74791 13.1388 2.81519C10.8274 -0.283702 6.44143 -0.922059 3.34254 1.38938Z\" class=\"transition-all ease-in-out duration-200\" :fill=\"open ? '#363636' : 'white'\" fill=\"#363636\"></path>\n                            </svg>"
+  },
+  {
+    "index": 5,
+    "parentInfo": "DIV.flex items-center justify-between gap-x-4 | py-5 | text-xl font-bold uppercase | w-full",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                        <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                    </svg>"
+  },
+  {
+    "index": 6,
+    "parentInfo": "DIV.flex items-center justify-between gap-x-4 | py-5 | text-xl font-bold uppercase | w-full",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                        <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                    </svg>"
+  },
+  {
+    "index": 7,
+    "parentInfo": "DIV.flex items-center justify-between gap-x-4 | py-5 | text-xl font-bold uppercase | w-full",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                        <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                    </svg>"
+  },
+  {
+    "index": 8,
+    "parentInfo": "DIV.flex items-center justify-between gap-x-4 | py-5 | text-xl font-bold uppercase | w-full",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                        <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                    </svg>"
+  },
+  {
+    "index": 9,
+    "parentInfo": "DIV.flex items-center justify-between gap-x-4 | py-5 | text-xl font-bold uppercase | w-full",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                        <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                    </svg>"
+  },
+  {
+    "index": 10,
+    "parentInfo": "DIV.flex gap-1 | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                </svg>"
+  },
+  {
+    "index": 11,
+    "parentInfo": "DIV.flex justify-between items-center gap-x-4",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                                                <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                                                <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                                            </svg>"
+  },
+  {
+    "index": 12,
+    "parentInfo": "DIV.flex justify-between items-center gap-x-4",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                                                <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                                                <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                                            </svg>"
+  },
+  {
+    "index": 13,
+    "parentInfo": "DIV.flex justify-between items-center gap-x-4",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                                                <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                                                <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                                            </svg>"
+  },
+  {
+    "index": 14,
+    "parentInfo": "DIV.flex justify-between items-center gap-x-4",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                                                <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                                                <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                                            </svg>"
+  },
+  {
+    "index": 15,
+    "parentInfo": "DIV.flex gap-1 | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                </svg>"
+  },
+  {
+    "index": 16,
+    "parentInfo": "DIV.flex justify-between items-center gap-x-4",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                                                <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                                                <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                                            </svg>"
+  },
+  {
+    "index": 17,
+    "parentInfo": "DIV.flex justify-between items-center gap-x-4",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                                                <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                                                <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                                            </svg>"
+  },
+  {
+    "index": 18,
+    "parentInfo": "DIV.flex justify-between items-center gap-x-4",
+    "viewBox": "0 0 36 36",
+    "outerHTML": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                                                <rect x=\"0.5\" y=\"0.5\" width=\"35\" height=\"35\" rx=\"17.5\" stroke=\"#E00004\"></rect>\n                                                                <path d=\"M12 18H24M24 18L18 12M24 18L18 24\" stroke=\"#E00004\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                                            </svg>"
+  },
+  {
+    "index": 19,
+    "parentInfo": "DIV.flex gap-1 | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                </svg>"
+  },
+  {
+    "index": 20,
+    "parentInfo": "DIV.flex gap-1 | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                </svg>"
+  },
+  {
+    "index": 21,
+    "parentInfo": "DIV.flex gap-1 | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                </svg>"
+  },
+  {
+    "index": 22,
+    "parentInfo": "DIV.flex | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                        </svg>"
+  },
+  {
+    "index": 23,
+    "parentInfo": "DIV.flex | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                        </svg>"
+  },
+  {
+    "index": 24,
+    "parentInfo": "DIV.flex | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                        </svg>"
+  },
+  {
+    "index": 25,
+    "parentInfo": "DIV.flex | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                        </svg>"
+  },
+  {
+    "index": 26,
+    "parentInfo": "DIV.flex | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                        </svg>"
+  },
+  {
+    "index": 27,
+    "parentInfo": "DIV.flex | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                        </svg>"
+  },
+  {
+    "index": 28,
+    "parentInfo": "DIV.flex | w-max | cursor-pointer",
+    "viewBox": "0 0 18 18",
+    "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path d=\"M12 3L6 9L12 15\" stroke=\"#E00004\" stroke-width=\"1.33333\"></path>\n                                        </svg>"
+  },
+  {
+    "index": 29,
+    "parentInfo": "BUTTON.flex gap-x-4 items-center",
+    "viewBox": "0 0 13 14",
+    "outerHTML": "<svg width=\"22\" height=\"22\" viewBox=\"0 0 13 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                        <path d=\"M1.14307 12.3571L11.8574 1.64282M1.14307 1.64282L11.8574 12.3571\" stroke=\"#ffffff\" stroke-width=\"2\"></path>\n                    </svg>"
+  },
+  {
+    "index": 30,
+    "parentInfo": "BUTTON.hidden",
+    "viewBox": "0 0 13 14",
+    "outerHTML": "<svg width=\"13\" height=\"14\" viewBox=\"0 0 13 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M1.14307 12.3571L11.8574 1.64282M1.14307 1.64282L11.8574 12.3571\" stroke=\"#363636\" stroke-width=\"2\"></path>\n</svg>"
+  },
+  {
+    "index": 31,
+    "parentInfo": "DIV.relative top-0.5 -left-0.5 | flex gap-x-1.5 items-center | rounded-r-full bg-highlight-green h-22 | ",
+    "viewBox": "0 0 30 24",
+    "outerHTML": "<svg width=\"45\" height=\"36\" viewBox=\"0 0 30 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <path d=\"M13.2275 1.2334C15.719 0.51197 18.4911 0.974529 20.6094 2.49512L20.9951 2.78809C22.8758 4.3028 24.0745 6.5555 24.2676 8.99219L24.292 9.49023C24.3405 11.8154 23.4499 14.1083 21.8525 15.7803L21.499 16.1289C19.4105 18.0743 16.529 18.8229 13.7617 18.252L13.6826 18.2354V18.2256C13.595 18.1898 13.5304 18.13 13.4922 18.0537C13.4447 17.9588 13.4412 17.8492 13.4678 17.752C13.5206 17.5591 13.7063 17.3752 13.9727 17.4297L14.2393 17.4805C16.9939 17.9529 19.8092 16.9423 21.623 14.7695L21.9062 14.4082C24.6134 10.7413 23.5624 5.34049 19.7393 2.92969L19.3477 2.69922C17.3647 1.60742 14.9404 1.4469 12.835 2.25488L12.418 2.42871C10.3389 3.37534 8.7844 5.19827 8.11328 7.38477L7.99121 7.82715C7.95955 7.95558 7.88345 8.04562 7.78516 8.09375C7.68953 8.14046 7.58033 8.14423 7.4834 8.11719C7.38634 8.09006 7.29463 8.02994 7.23438 7.94141C7.17279 7.85081 7.1481 7.73471 7.17969 7.60645L7.25195 7.33203C8.0471 4.50458 10.2008 2.20648 12.9873 1.30664L13.2275 1.2334Z\" fill=\"#ffffff\" stroke=\"#ffffff\" stroke-width=\"0.2\"></path>\n                    <path d=\"M16.1299 3.83203L16.4941 3.88281C18.2977 4.18815 19.8417 5.27388 20.7344 6.91699H20.7354L20.7725 7.00684C20.8338 7.21383 20.7208 7.39978 20.5693 7.48926C20.4825 7.54055 20.376 7.56547 20.2715 7.54492C20.1908 7.52905 20.1163 7.48717 20.0576 7.41797L20.0049 7.33984C19.2501 5.9495 17.9507 4.98881 16.418 4.72363L16.1084 4.67969C15.8413 4."
+  },
+  {
+    "index": 32,
+    "parentInfo": "DIV.transition-all ease-in-out duration-200 scale-150 rotate-0",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"#B30F34\" stroke-width=\"1.5\"></path>\n</svg>"
+  },
+  {
+    "index": 33,
+    "parentInfo": "DIV.transition-all ease-in-out duration-200 scale-150 rotate-0",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"#B30F34\" stroke-width=\"1.5\"></path>\n</svg>"
+  },
+  {
+    "index": 34,
+    "parentInfo": "DIV.transition-all ease-in-out duration-200 scale-150 rotate-0",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"#B30F34\" stroke-width=\"1.5\"></path>\n</svg>"
+  },
+  {
+    "index": 35,
+    "parentInfo": "DIV.transition-all ease-in-out duration-200 scale-150 rotate-0",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"#B30F34\" stroke-width=\"1.5\"></path>\n</svg>"
+  },
+  {
+    "index": 36,
+    "parentInfo": "DIV.transition-all ease-in-out duration-200 scale-150 rotate-0",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"#B30F34\" stroke-width=\"1.5\"></path>\n</svg>"
+  },
+  {
+    "index": 37,
+    "parentInfo": "DIV.transition-all ease-in-out duration-200 scale-150 rotate-0",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"#B30F34\" stroke-width=\"1.5\"></path>\n</svg>"
+  },
+  {
+    "index": 38,
+    "parentInfo": "DIV.transition-all ease-in-out duration-200 scale-150 rotate-0",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"#B30F34\" stroke-width=\"1.5\"></path>\n</svg>"
+  },
+  {
+    "index": 39,
+    "parentInfo": "A.inline-block | w-[140px]",
+    "viewBox": "0 0 700 390.07",
+    "outerHTML": "<svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"white\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"white\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"white\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"white\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"white\"></path>\n    <g>\n   "
+  },
+  {
+    "index": 40,
+    "parentInfo": "DIV.-rotate-90",
+    "viewBox": "0 0 14 14",
+    "outerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M1 7H13M13 7L7 1M13 7L7 13\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>"
+  },
+  {
+    "index": 41,
+    "parentInfo": "BUTTON.w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-b",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"lg:hidden | cursor-pointer transition-all ease-in-out duration-200 rotate-0\" :class=\"open ? 'rotate-180' : 'rotate-0'\" aria-hidden=\"true\">\n                                <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>"
+  },
+  {
+    "index": 42,
+    "parentInfo": "BUTTON.w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-b",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"lg:hidden | cursor-pointer transition-all ease-in-out duration-200 rotate-0\" :class=\"open ? 'rotate-180' : 'rotate-0'\" aria-hidden=\"true\">\n                                <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>"
+  },
+  {
+    "index": 43,
+    "parentInfo": "BUTTON.w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-b",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"lg:hidden | cursor-pointer transition-all ease-in-out duration-200 rotate-0\" :class=\"open ? 'rotate-180' : 'rotate-0'\" aria-hidden=\"true\">\n                                <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>"
+  },
+  {
+    "index": 44,
+    "parentInfo": "BUTTON.w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-b",
+    "viewBox": "0 0 20 21",
+    "outerHTML": "<svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"lg:hidden | cursor-pointer transition-all ease-in-out duration-200 rotate-0\" :class=\"open ? 'rotate-180' : 'rotate-0'\" aria-hidden=\"true\">\n                                <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>"
+  },
+  {
+    "index": 45,
+    "parentInfo": "DIV.\n        absolute right-6 top-6 |\n        flex justify-center items-center |\n        bg-white |\n    ",
+    "viewBox": "0 0 13 14",
+    "outerHTML": "<svg width=\"13\" height=\"14\" viewBox=\"0 0 13 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M1.14307 12.3571L11.8574 1.64282M1.14307 1.64282L11.8574 12.3571\" stroke=\"black\" stroke-width=\"2\"></path>\n</svg>"
+  }
+]

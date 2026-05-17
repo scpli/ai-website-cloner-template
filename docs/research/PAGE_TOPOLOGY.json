@@ -1,0 +1,52 @@
+{
+  "mainContainer": {
+    "tag": "main",
+    "id": "",
+    "classes": "chatbot svelte-17ra1as"
+  },
+  "sections": [
+    {
+      "tag": "div",
+      "id": "chat-button",
+      "classes": "icon svelte-17ra1as icon-right",
+      "textPreview": "",
+      "childCount": 1,
+      "computedStyles": {
+        "display": "flex",
+        "position": "fixed",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(54, 54, 54)",
+        "fontFamily": "\"Noto Sans\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "padding": "0px",
+        "margin": "0px",
+        "width": "80px",
+        "height": "80px"
+      }
+    },
+    {
+      "tag": "iframe",
+      "id": "chat-iframe",
+      "classes": "bot-close svelte-17ra1as bot-right animation-out-right",
+      "textPreview": "",
+      "childCount": 0,
+      "computedStyles": {
+        "display": "block",
+        "position": "fixed",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(54, 54, 54)",
+        "fontFamily": "\"Noto Sans\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "padding": "0px",
+        "margin": "0px",
+        "width": "0px",
+        "height": "0px"
+      }
+    }
+  ],
+  "totalSections": 2,
+  "url": "https://www.hkengage.gov.hk/zh-HK/how-to-apply-for-a-visa",
+  "title": "簽證資訊 | 工作簽證 | 人才招聘 | HKTE"
+}

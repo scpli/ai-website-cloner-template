@@ -1,0 +1,500 @@
+{
+  "sections": [
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | flex flex-col gap-y-4",
+      "textPreview": "申請資格\n                                        \n                                        \n                                                                                            有意來港工作及定居，而未在港獲聘的人才#，可根據高端人才通行證計劃提出申請。 申請人可選擇以下申請類別：\n                                                                                                    \n                                                        \n                                                                                                              ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "font-bold",
+          "textPreview": "申請資格"
+        },
+        {
+          "tag": "div",
+          "classes": "grid  gap-8 | text-justify",
+          "textPreview": "有意來港工作及定居，而未在港獲聘的人才#，可根據高端人才通行證計劃提出申請。 申請人可選擇以下申請類別：\n                                                                                                    \n                                              "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                            \n                                                                                                                            根據高端人才通行證計劃獲准來港人士，一般首次入境可獲准在港逗留36個月（A類申請）或24個月（B類及C類申請），而不受其他逗留條件限制。申請延長逗留期限時，申請人須已在香港特區受聘並能從中獲得穩定收入，或已在香港特區開辦或參與業務；獲批准的申請人，一般可獲准延長逗留不多於三年，而不受其他逗留條件限制。符合頂尖人才類別資格人士延",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                 "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "* 合資格大學是指合資格大學綜合名單（下稱「綜合名單」）載列的大學／院校。綜合名單是勞工及福利局根據(i) 泰晤士高等教育世界大學排名、QS世界大學排名、美國新聞與世界報道全球最佳大學排名及上海交通大學世界大學學術排名這四個指定的世界大學排行榜，在過去五年所列的百強大學／院校；(ii) 過去五年在QS世界大學排名「酒店及休閒管理」範疇位列前五名專門提供酒店課程的大學／院校；(iii) 過去五年在上海交通大學中國大學排名位列前二十名的內地大學而制定；及(iv) 過去五年在QS世界大學排名「藝術與設計」範疇位列前五名的專科學院而制定。為免生疑問，從合資格大學設立的持續和專業教育學院、分校、延伸學院或附屬學院等所獲取的學歷，將不予接受。\n                                                                                                    # 本計劃不適用於阿富汗、古巴及朝鮮的國⺠",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "* 合資格大學是指合資格大學綜合名單（下稱「綜合名單」）載列的大學／院校。綜合名單是勞工及福利局根據(i) 泰晤士高等教育世界大學排名、QS世界大學排名、美國新聞與世界報道全球最佳大學排名及上海交通大學世界大學學術排名這四個指定的世界大學排行榜，在過去五年所列的百強大學／院校；(ii) 過去五年在QS世界大學排名「酒店及休閒管理」範疇位列前五名專門提供酒店課程的大學／院校；(iii) 過去五年在上"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | flex flex-col gap-y-4",
+      "textPreview": "申請資格\n                                        \n                                        \n                                                                                                                                                \n                                                        \n                                                            專業人士\n                                                        \n                                                        有意來港工作的海外、台灣及澳門專業人士#，可根據一般就業政策提出申",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "font-bold",
+          "textPreview": "申請資格"
+        },
+        {
+          "tag": "div",
+          "classes": "grid  md:grid-cols-2  gap-8 | text-justify",
+          "textPreview": "專業人士\n                                                        \n                                                        有意來港工作的海外、台灣及澳門專業人士#，可根據一般就業政策提出申請。一般就業政策不限行業，主要申請資格包括 -\n                         "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                                                                                        \n                                                                \n                                                                    專業人士\n                                                                \n                         ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                 "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "人才清單\n                                                \n                                                \n                                                    2018年制訂首份香港人才清單，旨在更有效及聚焦地吸引高質素人才，以配合香港經濟高增值及多元化的發展。經2025年檢討，清單現時涵蓋9個行業領域下的60項專業。符合相關專業資格的外來人才在申請一般就業政策時可獲得入境便利。\n瀏覽人才清單以了解更多所列的專業。",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "人才清單\n                                                \n                                                \n                                                    2018年制訂首份香港人才清單，旨在更有效及聚焦地吸引高質素人才，以配合香港經濟高增值及多"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "# 本計劃不適用於 a)内地的中國居⺠；及 b)阿富汗、古巴及朝鮮的國⺠\n                                                                                                    * 例如投資推廣署的StartmeupHK創業計劃、香港科技園公司的網動科技創業培育計劃、生物科技創業培育計劃及科技創業培育計劃、數碼港培育計劃、創新科技署企業支援計劃，以及香港設計中心設計創業培育計劃",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "# 本計劃不適用於 a)内地的中國居⺠；及 b)阿富汗、古巴及朝鮮的國⺠\n                                                                                                    * 例如投資推廣署的StartmeupHK創業計劃、香港科技園公司的網動科技創業培育計劃、生物科技創業培育計劃及科技創業培育計"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "一般就業政策（技術專才類別）\n年輕及具經驗的非學位專業人士，如擁有相關專業及技術技能，可申請來香港特區加入特定技術行業。瀏覽一般就業政策（技術專才類別）以了解更多相關要求。技術專才類別的申請受申請配額限制，並且只限載列於「技術專才清單」的指定技術工種。",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "一般就業政策（技術專才類別）\n年輕及具經驗的非學位專業人士，如擁有相關專業及技術技能，可申請來香港特區加入特定技術行業。瀏覽一般就業政策（技術專才類別）以了解更多相關要求。技術專才類別的申請受申請配額限制，並且只限載列於「技術專才清單」的指定技術工種。"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | flex flex-col gap-y-4",
+      "textPreview": "申請資格\n                                        \n                                        \n                                                                                            有意來港工作的內地專業人士，可根據輸入內地人才計劃提出申請。輸入內地人才計劃不限行業，主要申請資格包括 -\n                                                                                                            \n                                                                \n                                                                                             ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "font-bold",
+          "textPreview": "申請資格"
+        },
+        {
+          "tag": "div",
+          "classes": "grid  gap-8 | text-justify",
+          "textPreview": "有意來港工作的內地專業人士，可根據輸入內地人才計劃提出申請。輸入內地人才計劃不限行業，主要申請資格包括 -\n                                                                                                            \n                                     "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                            \n                                                                                                                            透過輸入內地人才計劃獲准來港人士可以僱傭身份留港，一般首次入境可獲准在港以僱傭身份逗留 36 個月或根據其僱傭合約的有效期限而定（以較短者為準）。申請延長逗留期限時，有關申請只會在申請人仍然符合輸入內地人才計劃所訂的申請資格的情況下才會獲得考慮；成功申請者仍會以僱傭身份留港，而其延長逗留期限通常會以 3 + 2 年的模式或根據",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                 "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "人才清單\n                                                \n                                                \n                                                    2018年制訂首份香港人才清單，旨在更有效及聚焦地吸引高質素人才，以配合香港經濟高增值及多元化的發展。經2025年檢討，清單現時涵蓋9個行業領域下的60項專業。符合相關專業資格的外來人才在申請輸入內地人才計劃時可獲得入境便利。\n瀏覽人才清單以了解更多所列的專業。",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "人才清單\n                                                \n                                                \n                                                    2018年制訂首份香港人才清單，旨在更有效及聚焦地吸引高質素人才，以配合香港經濟高增值及多"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "輸入內地人才計劃（技術專才類別）\n年輕及具經驗的非學位專業人士，如擁有相關專業及技術技能，可申請來香港特區加入特定技術行業。瀏覽輸入內地人才計劃（技術專才類別）以了解更多相關要求。技術專才類別的申請受申請配額限制，並且只限載列於「技術專才清單」的指定技術工種。",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "輸入內地人才計劃（技術專才類別）\n年輕及具經驗的非學位專業人士，如擁有相關專業及技術技能，可申請來香港特區加入特定技術行業。瀏覽輸入內地人才計劃（技術專才類別）以了解更多相關要求。技術專才類別的申請受申請配額限制，並且只限載列於「技術專才清單」的指定技術工種。"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | flex flex-col gap-y-4",
+      "textPreview": "申請資格\n                                        \n                                        \n                                                                                            非本地畢業生#可根據非本地畢業生留港/回港就業安排申請留港兩年尋找工作，主要申請資格包括 -\n                                                                                                            \n                                                                \n                                                                                                    ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "font-bold",
+          "textPreview": "申請資格"
+        },
+        {
+          "tag": "div",
+          "classes": "grid  gap-8 | text-justify",
+          "textPreview": "非本地畢業生#可根據非本地畢業生留港/回港就業安排申請留港兩年尋找工作，主要申請資格包括 -\n                                                                                                            \n                                            "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                            \n                                                                                                                            根據非本地畢業生留港╱回港就業安排獲准來港就業的人士，一般首次入境可獲准在港逗留 24 個月而不受其他逗留條件限制。申請延長逗留期限時，非本地畢業生須已獲得聘用，或已在香港特區開辦或參與任何業務；申請如獲批准，申請人通常會獲准以3+3年的模式獲准在港逗留，而不受其他逗留條件限制。符合頂尖人才類別資格人士一般會獲准延期逗留6年而",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                 "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "# 本計劃不適用於阿富汗、古巴及朝鮮的國民。就老撾、尼泊爾及越南國民而言，「非本地畢業生留港／回港就業安排」只適用於(a)在香港修讀由大學教育資助委員會資助院校開辦的全日制經本地評審的本地課程而獲得學士學位或更高資歷的人士，但不包括（一）相關院校開辦的自資課程；（二）相關院校的持續及專業教育部門開辦的課程；及（三）相關院校開辦的交換生課程或短期課程；或(b)大灣區校園畢業生。",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "# 本計劃不適用於阿富汗、古巴及朝鮮的國民。就老撾、尼泊爾及越南國民而言，「非本地畢業生留港／回港就業安排」只適用於(a)在香港修讀由大學教育資助委員會資助院校開辦的全日制經本地評審的本地課程而獲得學士學位或更高資歷的人士，但不包括（一）相關院校開辦的自資課程；（二）相關院校的持續及專業教育部門開辦的課程；及（三）相關院校開辦的交換生課程或短期課程；或(b)大灣區校園畢業生。"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | flex flex-col gap-y-4",
+      "textPreview": "申請資格\n                                        \n                                        \n                                                                                            有意來港工作及定居，而未在港獲聘用的高技術人才或優才#，可根據優秀人才入境計劃提出申請。優秀人才入境計劃不限行業，並設有以下兩套評核機制 -\n                                                                                                            \n                                                                \n                                                                            ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "font-bold",
+          "textPreview": "申請資格"
+        },
+        {
+          "tag": "div",
+          "classes": "grid  gap-8 | text-justify",
+          "textPreview": "有意來港工作及定居，而未在港獲聘用的高技術人才或優才#，可根據優秀人才入境計劃提出申請。優秀人才入境計劃不限行業，並設有以下兩套評核機制 -\n                                                                                                            \n                    "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                            \n                                                                                                                            按本計劃「綜合計分制」獲准來港人士，一般首次入境可獲准在港逗留 36 個月而不受其他逗留條件限制。申請進一步延期逗留時，申請人須提供證明文件以證明已於香港定居及對香港有所貢獻，例如擔任學位程度、專家水平或高級的支薪職位，並且獲得穩定收入，或於香港建立或參與具合理規模的業務。獲批准延期逗留的申請人通常會以3+2年的模式獲准在港逗",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                 "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "人才清單\n                                                \n                                                \n                                                    2018年制訂首份香港人才清單，旨在更有效及聚焦地吸引高質素人才，以配合香港經濟高增值及多元化的發展。經2025年檢討，清單現時涵蓋9個行業領域下的60項專業。符合相關專業資格的外來人才在申請優秀人才入境計劃時可獲得入境便利。\n瀏覽人才清單以了解更多所列的專業。",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "人才清單\n                                                \n                                                \n                                                    2018年制訂首份香港人才清單，旨在更有效及聚焦地吸引高質素人才，以配合香港經濟高增值及多"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "# 本計劃不適用於阿富汗、古巴及朝鮮的國民\n                                                                                                    ^ 優秀人才入境計劃合資格大學綜合名單",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "# 本計劃不適用於阿富汗、古巴及朝鮮的國民\n                                                                                                    ^ 優秀人才入境計劃合資格大學綜合名單"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | flex flex-col gap-y-4",
+      "textPreview": "申請資格\n                                        \n                                        \n                                                                                            科技人才入境計劃旨在透過快速處理安排，供合資格公司申請輸入非本地科技人才到香港從事研發工作#。合資格公司須先申請配額，獲創新科技署發出配額的公司可相應地於為期 24 個月的配額有效期內為合資格人士申請工作簽證／進入許可\n                    根據科技人才入境計劃來港就業的簽證／進入許可申請，主要申請資格包括 -\n                                                                                                            \n                                              ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "font-bold",
+          "textPreview": "申請資格"
+        },
+        {
+          "tag": "div",
+          "classes": "grid  gap-8 | text-justify",
+          "textPreview": "科技人才入境計劃旨在透過快速處理安排，供合資格公司申請輸入非本地科技人才到香港從事研發工作#。合資格公司須先申請配額，獲創新科技署發出配額的公司可相應地於為期 24 個月的配額有效期內為合資格人士申請工作簽證／進入許可\n                    根據科技人才入境計劃來港就業的簽證／進入許可申請，主要申請資格包括 -\n                                  "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                            \n                                                                                                                            透過科技人才入境計劃獲准來港人士，逗留期限模式為3+3+2年\n                                                                                                                            符合頂尖人才類別資",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                 "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "# 本計劃不適用於阿富汗、古巴及朝鮮的國⺠",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "# 本計劃不適用於阿富汗、古巴及朝鮮的國⺠"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | flex flex-col gap-y-4",
+      "textPreview": "申請資格\n                                        \n                                        \n                                                                                            已移居海外的中國籍香港永久性居民的第二代#，可根據此計劃申請來港。計劃不限行業，申請人在首次入境時無須先獲得聘用。計劃主要申請資格包括 -\n                                                                                                            \n                                                                \n                                                                             ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "font-bold",
+          "textPreview": "申請資格"
+        },
+        {
+          "tag": "div",
+          "classes": "grid  gap-8 | text-justify",
+          "textPreview": "已移居海外的中國籍香港永久性居民的第二代#，可根據此計劃申請來港。計劃不限行業，申請人在首次入境時無須先獲得聘用。計劃主要申請資格包括 -\n                                                                                                            \n                     "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                            \n                                                                                                                            根據輸入中國籍香港永久性居民第二代計劃獲准來港人士，一般首次入境可獲准在港逗留 24 個月而不受其他逗留條件限制。申請延長逗留期限時，申請人須已獲得聘用，或已在香港開辦或參與任何業務。申請如獲批准，申請人通常會獲准以3+3年的模式獲准延長逗留，而不受其他逗留條件限制。符合頂尖人才類別資格人士年一般會獲准延期逗留6年而不受其他逗",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "逗留期限\n                                                \n                                                \n                                                                                                 "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | border-t border-dark-grey-75 | py-10",
+      "textPreview": "# 本計劃不適用於阿富汗、古巴及朝鮮的國⺠\n                                                                                                    * 「中國籍人士」指依據《中華人民共和國香港特別行政區基本法》第十八條及附件三在香港特區實施並按照1996年5月15日第八屆全國人民代表大會常務委員會第十九次會議通過的《關於〈中華人民共和國國籍法〉在香港特別行政區實施的幾個問題的解釋》詮釋的《中華人民共和國國籍法》所指具有中國國籍的人",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "flex flex-col gap-y-4",
+          "textPreview": "# 本計劃不適用於阿富汗、古巴及朝鮮的國⺠\n                                                                                                    * 「中國籍人士」指依據《中華人民共和國香港特別行政區基本法》第十八條及附件三在香港特區實施並按照1996年5月15日第八屆全國人民代表大會常務委員會第十九"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "content | relative | flex flex-col items-center gap-y-4 | w-full | px-5",
+      "textPreview": "用微信掃描以下QR Code，關注人才服務辦公室微信官方帳號，或用微信搜尋「香港特区政府人才服务办公室」關注我們。",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "w-12 aspect-square | bg-contain bg-no-repeat bg-center",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "classes": "",
+          "textPreview": "用微信掃描以下QR Code，關注人才服務辦公室微信官方帳號，或用微信搜尋「香港特区政府人才服务办公室」關注我們。"
+        },
+        {
+          "tag": "div",
+          "classes": "w-60 aspect-square | bg-contain bg-no-repeat bg-center",
+          "textPreview": ""
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "min-[1400px]:block hidden | w-full transition-all ease-in-out duration-200 text-white border-transparent",
+      "textPreview": "關於我們\n                                    \n                                \n                                                            \n                                    常見問題\n                                    \n                                \n                                                            \n                                    聯絡我們\n                                    \n                                \n                            \n                        \n                        \n  ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "w-full max-w-[1438px] | mx-auto px-12",
+          "textPreview": "關於我們\n                                    \n                                \n                                                            \n                                    常見問題\n                       "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "\n        landing-content__bg |\n        relative |\n         landing-content__bg-arrow | bg-[#08415C] bg-no-repeat bg-right-top  |\n        pt-12 md:pt-20  |\n        text-white",
+      "textPreview": "尋找適合你的人才入境計劃\n        \n        \n            香港特別行政區政府為有意來港工作及定居的專業人才提供七項人才入境計劃。以下概述各計劃的主要資格，以及「高端人才通行證計劃」下認可的「合資格大學」名單。\n                    你也可以使用我們的「入境計劃配對工具」，只需五分鐘即可快速評估符合申請資格的計劃。\n        \n    \n\n    \n    \n\n    \n        \n                            \n                    尋找適合你的入境計劃\n                \n                \n                    \n                    \n                    \n                    \n                    \n                    \n                \n            \n        \n        \n    \n\n    \n",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "mask mask-n",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "classes": "relative | container-content ",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "classes": "",
+          "textPreview": "尋找適合你的人才入境計劃\n        \n        \n            香港特別行政區政府為有意來港工作及定居的專業人才提供七項人才入境計劃。以下概述各計劃的主要資格，以及「高端人才通行證計劃」下認可的「合資格大學」名單。\n                    你也可以使用我們的「入境計劃配對工具」，只需五分鐘即可快速評估符合申請資格的計劃。\n        \n    \n\n    "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "visa_top",
+      "classes": "container-content | flex flex-col gap-y-2 | mb-15",
+      "textPreview": "尋找適合你的人才入境計劃\n        \n        \n            香港特別行政區政府為有意來港工作及定居的專業人才提供七項人才入境計劃。以下概述各計劃的主要資格，以及「高端人才通行證計劃」下認可的「合資格大學」名單。\n                    你也可以使用我們的「入境計劃配對工具」，只需五分鐘即可快速評估符合申請資格的計劃。",
+      "children": [
+        {
+          "tag": "h2",
+          "classes": "aos-init aos-animate",
+          "textPreview": "尋找適合你的人才入境計劃"
+        },
+        {
+          "tag": "div",
+          "classes": "text-justify aos-init aos-animate",
+          "textPreview": "香港特別行政區政府為有意來港工作及定居的專業人才提供七項人才入境計劃。以下概述各計劃的主要資格，以及「高端人才通行證計劃」下認可的「合資格大學」名單。\n                    你也可以使用我們的「入境計劃配對工具」，只需五分鐘即可快速評估符合申請資格的計劃。"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "container-content |  mb-10 lg:mb-20 ",
+      "textPreview": "尋找適合你的入境計劃\n                \n                \n                    \n                    \n                    \n                    \n                    \n                    \n                \n            \n        \n        \n    \n\n    \n    \n                    \n        \n        \n                                                \n                        \n                        \n                            \n                                \n                                1\n                               ",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "fixed border-y border-transparent closed | bottom-12 | rounded-r-full | w-38 h-[76px] -left-px | cursor-pointer | z-40 | overflow-hidden | transition-all ease-in-out duration-200",
+          "textPreview": "尋找適合你的入境計劃"
+        },
+        {
+          "tag": "div",
+          "classes": "",
+          "textPreview": "1\n                                高端人才通行證計劃\n                            \n                            \n                                \n                                    \n                            "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "container-content | pb-6 lg:pb-20",
+      "textPreview": "申請延長逗留期限\n                    為你及你的受養人提交簡單的線上申請，繼續在這座亞洲國際都會發展事業。\n                    \n                \n            \n                                立即申請\n                            \n                        \n                                立即申請",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "relative aos-init",
+          "textPreview": "申請延長逗留期限\n                    為你及你的受養人提交簡單的線上申請，繼續在這座亞洲國際都會發展事業。\n                    \n                \n            \n                                立即申請\n                            \n                   "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "container-content | pb-6 lg:pb-20",
+      "textPreview": "香港人才入境計劃簡要手冊\n                    這份手冊助你迅速了解各項入境計劃特點，期待你成為亞洲盛事之都的一份子！\n                    \n                \n            \n                                立即下載\n                            \n                        \n                                立即下載",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "relative aos-init",
+          "textPreview": "香港人才入境計劃簡要手冊\n                    這份手冊助你迅速了解各項入境計劃特點，期待你成為亞洲盛事之都的一份子！\n                    \n                \n            \n                                立即下載\n                            \n              "
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "container-content | pb-6 lg:pb-20",
+      "textPreview": "簽證申請問題\n                    瀏覽我們的「常見問題」，了解簽證申請及延長逗留期限的資訊。\n                    \n                \n            \n                                了解更多\n                            \n                        \n                                了解更多",
+      "children": [
+        {
+          "tag": "div",
+          "classes": "relative aos-init",
+          "textPreview": "簽證申請問題\n                    瀏覽我們的「常見問題」，了解簽證申請及延長逗留期限的資訊。\n                    \n                \n            \n                                了解更多\n                            \n                        \n "
+        }
+      ]
+    }
+  ],
+  "url": "https://www.hkengage.gov.hk/zh-HK/how-to-apply-for-a-visa",
+  "title": "簽證資訊 | 工作簽證 | 人才招聘 | HKTE"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "url": "url(\"https://www.hkengage.gov.hk/assets/images/bg-n-mask.png\")",
+    "tag": "DIV",
+    "classes": "mask mask-n",
+    "id": ""
+  },
+  {
+    "url": "url(\"https://www.hkengage.gov.hk/assets/images/landing/visa-application.png\")",
+    "tag": "DIV",
+    "classes": "relative z-10 | flex items-center | h-80 lg:h-[526px] | pt-6 px-5  -mt-[71px] lg:-mt-26.5  | bg-cover bg-no-repeat bg-center",
+    "id": ""
+  },
+  {
+    "url": "url(\"https://www.hkengage.gov.hk/build/assets/landing-arrow-CRdqUqmr.png\")",
+    "tag": "DIV",
+    "classes": "\n        landing-content__bg |\n        relative |\n         landing-content__bg-arrow | bg-[#08415C] bg-no-repeat bg-right-top  |\n        pt-12 md:pt-20  |\n        text-white",
+    "id": ""
+  },
+  {
+    "url": "url(\"https://www.hkengage.gov.hk/assets/images/bg-n-mask.png\")",
+    "tag": "DIV",
+    "classes": "mask mask-n",
+    "id": ""
+  },
+  {
+    "url": "url(\"https://www.hkengage.gov.hk/assets/images/visa/bottom-banner-0.png\")",
+    "tag": "DIV",
+    "classes": "arrow-crop | pb-[58.6%] | bg-no-repeat bg-contain",
+    "id": ""
+  },
+  {
+    "url": "url(\"https://www.hkengage.gov.hk/assets/images/visa/bottom-banner-1.png\")",
+    "tag": "DIV",
+    "classes": "max-lg:hidden relative | h-[432px] | bg-no-repeat bg-contain bg-right-top",
+    "id": ""
+  },
+  {
+    "url": "url(\"https://www.hkengage.gov.hk/assets/images/visa/bottom-banner-2.png\")",
+    "tag": "DIV",
+    "classes": "arrow-crop | pb-[58.6%] | bg-no-repeat bg-contain",
+    "id": ""
+  }
+]

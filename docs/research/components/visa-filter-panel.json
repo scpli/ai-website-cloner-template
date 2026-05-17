@@ -1,0 +1,1377 @@
+{
+  "timestamp": "2026-05-15T04:29:51.661Z",
+  "url": "https://www.hkengage.gov.hk/zh-HK/how-to-apply-for-a-visa",
+  "buttonDetection": {
+    "found": true,
+    "usedSelector": "#visa_filter_button",
+    "selectorsTried": [
+      "#visa_filter_button",
+      "button:has-text(\"尋找適合你的入境計劃\")",
+      "[id*=\"filter\"]",
+      "a:has-text(\"尋找適合你的入境計劃\")",
+      "button:has-text(\"filter\")",
+      "[wire\\:click*=\"triggerOpen\"]",
+      "button[class*=\"filter\"]"
+    ]
+  },
+  "networkActivity": {
+    "requestsAfterClick": 29,
+    "ajaxRequests": [
+      {
+        "url": "https://www.hkengage.gov.hk/zh-HK/livewire/update",
+        "method": "POST",
+        "resourceType": "fetch",
+        "timestamp": 1778819382878
+      },
+      {
+        "url": "https://hkengage-aab03b8d6e4f3bb17296487.freshchat.com/app/services/app/webchat/c94b08ed-64a9-433b-b028-039fbf875e15/user/5dc63acd-c203-46af-84af-d1796a6b42b6",
+        "method": "GET",
+        "resourceType": "xhr",
+        "timestamp": 1778819389148
+      },
+      {
+        "url": "https://hkengage-aab03b8d6e4f3bb17296487.freshchat.com/app/services/app/webchat/c94b08ed-64a9-433b-b028-039fbf875e15/widget_info_v2?locales=zh-HANT,zh-HK,zh-HK&platform=web",
+        "method": "GET",
+        "resourceType": "xhr",
+        "timestamp": 1778819389702
+      },
+      {
+        "url": "https://hkengage-aab03b8d6e4f3bb17296487.freshchat.com/app/services/app/webchat/c94b08ed-64a9-433b-b028-039fbf875e15/user/5dc63acd-c203-46af-84af-d1796a6b42b6/activity?widgetInfoTraceId=be4b99a6-5414-4a70-89ae-5c66c33b35c9",
+        "method": "PUT",
+        "resourceType": "xhr",
+        "timestamp": 1778819390277
+      },
+      {
+        "url": "https://hkengage-aab03b8d6e4f3bb17296487.freshchat.com/app/services/app/webchat/c94b08ed-64a9-433b-b028-039fbf875e15/faq/category?platform=web&locales=zh-HANT%2Czh-HK%2Czh-HK&since=&lastLocaleId=",
+        "method": "GET",
+        "resourceType": "xhr",
+        "timestamp": 1778819390735
+      }
+    ]
+  },
+  "panelDetection": {
+    "newlyVisibleElements": 19,
+    "floatingElements": 15,
+    "openPopovers": 0,
+    "livewireComponents": 4
+  },
+  "filterPanelHTML": "<body x-data=\"{ popupOpen: false }\" x-on:popup-open.window=\"popupOpen = true\" x-on:popup-close.window=\"popupOpen = false\" data-aos-easing=\"ease\" data-aos-duration=\"400\" data-aos-delay=\"0\">\n<!-- Google Tag Manager (noscript) -->\n<noscript>\n    <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5JDJWNZ\"\n            height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<div x-bind:aria-hidden=\"popupOpen ? 'true' : 'false'\" x-bind:inert=\"popupOpen\" aria-hidden=\"false\">\n    <div wire:id=\"jD6SGlJzDpqhde1GbWHZ\" id=\"header\" x-data=\"header\" x-init=\"if ($el.matches(':hover')) { open = true; enter = true; color = '#767676'; }\" x-on:mouseenter=\"open = true; enter = true; color = '#767676';\" x-on:focus=\"open = true; enter = true; color = '#767676';\" x-on:mouseleave=\"enter = false; rowTouching = false; checkScroll();\" x-on:keydown=\"open = true; enter = true; color = '#767676';\" class=\"fixed left-0 top-0 z-50 | w-screen\" @scroll.window=\"checkScroll\" data-has-alpine-state=\"true\">\n    <a tabindex=\"0\" id=\"skip_to_main_content\" class=\"size-0 opacity-0 absolute -left-50 -top-50\" href=\"#hkte_main_content\" onclick=\"event.preventDefault(); document.getElementById('hkte_main_content').focus();\">\n        跳至主要內容\n    </a>\n    \n    <div class=\"min-[1400px]:block hidden | w-full transition-all ease-in-out duration-200 text-white border-transparent\" :class=\"!open ? 'text-white border-transparent' : 'border-b border-light-grey-100 bg-white'\" :style=\"open || 'background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);'\" style=\"background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);\">\n        <div class=\"w-full max-w-[1438px] | mx-auto px-12\">\n            <div class=\"flex justify-between items-center \">\n                <a tabindex=\"0\" href=\"https://www.hkengage.gov.hk/zh-HK\" class=\"inline-block | w-[140px] | text-dark-grey-100\" title=\"人才服務辦公室\">\n                    <!--[if BLOCK]><![endif]-->                        <svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"white\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"white\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"white\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"white\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"white\"></path>\n    <g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M273.19,217.69l-17.23-22.03c-1.52-1.94-3.85-3.08-6.32-3.08h-2.05v38.1s1.21,0,1.21,0c3.42,0,6.2-2.77,6.2-6.2v-18.27l16.53,20.82c1.83,2.3,4.61,3.65,7.55,3.65h1.46v-38.04h-1.29c-3.18,0-6.06,2.71-6.06,6.07v18.99Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M306.67,216.34h6.07c.87,0,1.58.71,1.58,1.58v1.05c-1.38,1.61-2.84,2.86-4.39,3.74-1.75,1-3.6,1.5-5.56,1.5-1.64,0-3.14-.32-4.49-.96-1.36-.64-2.54-1.54-3.56-2.7-1.02-1.16-1.8-2.5-2.35-4.04-.55-1.53-.83-3.21-.83-5.03,0-1.71.25-3.33.75-4.87.5-1.53,1.23-2.89,2.19-4.06.96-1.18,2.11-2.1,3.45-2.78,1.34-.68,2.81-1.02,4.41-1.02,2.03,0,3.92.5,5.67,1.5,1.75,1,3.08,2.44,4.01,4.33l5.51-4.06c-1.28-2.53-3.2-4.55-5.75-6.04-2.55-1.5-5.63-2.25-9.23-2.25-2.6,0-5.03.49-7.27,1.47-2.25.98-4.2,2.35-5.86,4.12-1.66,1.76-2.96,3.8-3.91,6.1-.94,2.3-1.42,4.75-1.42,7.35,0,2.78.46,5.34,1.39,7.67.93,2.34,2.22,4.4,3.88,6.18,1.66,1.78,3.57,3.16,5.75,4.15,2.17.98,4.51,1.47,7.01,1.47,4.01,0,7.54-1.51,10.59-4.53v4.27h6.1v-14.05c0-3.02-2.45-5.47-5.47-5.47h-8.28v5.4Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M236.86,198.32c-1.6-1.85-3.54-3.33-5.8-4.44-2.26-1.11-4.77-1.66-7.51-1.66s-5.15.53-7.43,1.58c-2.28,1.05-4.25,2.48-5.91,4.28-1.66,1.8-2.96,3.85-3.9,6.15-.95,2.3-1.42,4.71-1.42,7.25s.44,4.79,1.34,7.09c.89,2.3,2.16,4.37,3.8,6.2,1.64,1.84,3.58,3.29,5.83,4.36,2.25,1.07,4.76,1.6,7.54,1.6s5.14-.52,7.41-1.55c2.2",
+  "filterPanelStyles": {
+    "display": "block",
+    "position": "relative",
+    "top": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "left": "0px",
+    "width": "1440px",
+    "height": "6884.08px",
+    "zIndex": "auto",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "transform": "none",
+    "boxShadow": "none",
+    "borderRadius": "0px",
+    "overflow": "hidden auto"
+  },
+  "filterPanelText": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5JDJWNZ\"\n            height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n\n\n\n\n    \n    \n        跳至主要內容\n    \n    \n    \n        \n            \n                \n                                            \n    \n        \n        \n        \n    \n    \n    \n        \n        \n    \n    \n    \n    \n        \n            \n            \n            \n            \n                \n                \n            \n        \n        \n            \n            \n            \n            \n            \n        \n    \n    \n        \n            \n            \n            \n            \n            \n            \n        \n        \n            \n            \n            \n            \n            \n            \n        \n    \n    \n        \n        \n        \n        \n    \n    \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    \n\n                    \n                \n                                \n                    \n                        \n                                                            \n                                    關於我們\n                                    \n                                \n                                                            \n                                    常見問題\n                                    \n                                \n                                                            \n                                    聯絡我們\n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                \n                            \n                            \n                                繁\n                                \n                                    \n                                \n\n                                \n                 ",
+  "filterPanelFormElements": [
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "開啟搜尋框",
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "",
+      "wireModel": null,
+      "wireClick": "triggerSearch(true)"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "languageSwitcherButton",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "語言切換器",
+      "ariaExpanded": null,
+      "text": "繁\n                                \n                                    \n                            ",
+      "classes": "group | relative | flex items-center gap-2 | px-2",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "開啟搜尋框",
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "pr-0.5",
+      "wireModel": null,
+      "wireClick": "triggerSearch(true)"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "mobileMenuToggle",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "開啟手機選單",
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "flex items-center justify-center | size-[22px]",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "openMobileMenu",
+      "value": "on",
+      "placeholder": "",
+      "checked": false,
+      "disabled": false,
+      "required": false,
+      "ariaLabel": "開啟手機選單",
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "hidden",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": " '語言改為en' ",
+      "ariaExpanded": null,
+      "text": "EN",
+      "classes": "px-6 | cursor-pointer  ",
+      "wireModel": null,
+      "wireClick": "changeLanguage('en')"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": " '語言改為zh-HK' ",
+      "ariaExpanded": null,
+      "text": "繁",
+      "classes": "px-6 | cursor-pointer  | text-nav-red   | border-x border-light-grey-100 ",
+      "wireModel": null,
+      "wireClick": "changeLanguage('zh-HK')"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": " '語言改為zh-CN' ",
+      "ariaExpanded": null,
+      "text": "简",
+      "classes": "px-6 | cursor-pointer  ",
+      "wireModel": null,
+      "wireClick": "changeLanguage('zh-CN')"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": null,
+      "ariaExpanded": null,
+      "text": "關閉",
+      "classes": "flex gap-x-4 items-center",
+      "wireModel": null,
+      "wireClick": "triggerSearch(false)"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "",
+      "id": "search_article_input_header",
+      "value": "",
+      "placeholder": "請輸入關鍵字",
+      "checked": false,
+      "disabled": false,
+      "required": false,
+      "ariaLabel": "文章搜尋",
+      "ariaExpanded": null,
+      "text": "",
+      "classes": " | relative | bg-transparent | w-full | text-black | outline-0",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "清除查詢",
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "hidden",
+      "wireModel": null,
+      "wireClick": "clearQuery"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "搜尋",
+      "ariaExpanded": null,
+      "text": "搜尋",
+      "classes": "group btn-text |  max-w-full | inline-block | break-words | pointer-events-none grayscale | transition-all ease-in-out duration-200 ",
+      "wireModel": null,
+      "wireClick": "searchArticle"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "question_1",
+      "id": "question_1mainland",
+      "value": "mainland",
+      "placeholder": "",
+      "checked": false,
+      "disabled": false,
+      "required": false,
+      "ariaLabel": null,
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "hidden",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "question_1",
+      "id": "question_1taiwan_macao",
+      "value": "taiwan_macao",
+      "placeholder": "",
+      "checked": false,
+      "disabled": false,
+      "required": false,
+      "ariaLabel": null,
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "hidden",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "question_1",
+      "id": "question_1other_country",
+      "value": "other_country",
+      "placeholder": "",
+      "checked": false,
+      "disabled": false,
+      "required": false,
+      "ariaLabel": null,
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "hidden",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "下一步",
+      "ariaExpanded": null,
+      "text": "下一步",
+      "classes": "group btn-text | w-full md:w-max block max-w-full | inline-block | break-words | pointer-events-none grayscale | transition-all ease-in-out duration-200 1",
+      "wireModel": null,
+      "wireClick": "nextStep"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "查看更多",
+      "ariaExpanded": null,
+      "text": "查看更多",
+      "classes": "\n                                    flex justify-center lg:justify-between gap-x-2 items-center |\n                                    border border-highlight-red rounded-full |\n                      ",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "查看更多",
+      "ariaExpanded": null,
+      "text": "查看更多",
+      "classes": "\n                                    flex justify-center lg:justify-between gap-x-2 items-center |\n                                    border border-highlight-red rounded-full |\n                      ",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "查看更多",
+      "ariaExpanded": null,
+      "text": "查看更多",
+      "classes": "\n                                    flex justify-center lg:justify-between gap-x-2 items-center |\n                                    border border-highlight-red rounded-full |\n                      ",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "查看更多",
+      "ariaExpanded": null,
+      "text": "查看更多",
+      "classes": "\n                                    flex justify-center lg:justify-between gap-x-2 items-center |\n                                    border border-highlight-red rounded-full |\n                      ",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "查看更多",
+      "ariaExpanded": null,
+      "text": "查看更多",
+      "classes": "\n                                    flex justify-center lg:justify-between gap-x-2 items-center |\n                                    border border-highlight-red rounded-full |\n                      ",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "查看更多",
+      "ariaExpanded": null,
+      "text": "查看更多",
+      "classes": "\n                                    flex justify-center lg:justify-between gap-x-2 items-center |\n                                    border border-highlight-red rounded-full |\n                      ",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "查看更多",
+      "ariaExpanded": null,
+      "text": "查看更多",
+      "classes": "\n                                    flex justify-center lg:justify-between gap-x-2 items-center |\n                                    border border-highlight-red rounded-full |\n                      ",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email",
+      "id": "",
+      "value": "",
+      "placeholder": "",
+      "checked": false,
+      "disabled": false,
+      "required": false,
+      "ariaLabel": "訂閱電子報",
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "w-full | bg-transparent | border-none outline-none | text-white | shadow-none",
+      "wireModel": "email",
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": "訂閱電子報",
+      "ariaExpanded": null,
+      "text": "",
+      "classes": "hover:animate-bounce",
+      "wireModel": null,
+      "wireClick": "subscribe"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": null,
+      "ariaExpanded": "false",
+      "text": "就業資訊",
+      "classes": "w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-bold text-white text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ro",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": null,
+      "ariaExpanded": "false",
+      "text": "活動情報及最新消息",
+      "classes": "w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-bold text-white text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ro",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": null,
+      "ariaExpanded": "false",
+      "text": "人才支援",
+      "classes": "w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-bold text-white text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ro",
+      "wireModel": null,
+      "wireClick": null
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "ariaLabel": null,
+      "ariaExpanded": "false",
+      "text": "其他",
+      "classes": "w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-bold text-white text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ro",
+      "wireModel": null,
+      "wireClick": null
+    }
+  ],
+  "fullFilterDOM": {
+    "bodyChildrenWithFilterContent": [
+      {
+        "tagName": "DIV",
+        "id": "",
+        "classes": "",
+        "htmlPreview": "<div x-bind:aria-hidden=\"popupOpen ? 'true' : 'false'\" x-bind:inert=\"popupOpen\" aria-hidden=\"false\">\n    <div wire:id=\"jD6SGlJzDpqhde1GbWHZ\" id=\"header\" x-data=\"header\" x-init=\"if ($el.matches(':hover')) { open = true; enter = true; color = '#767676'; }\" x-on:mouseenter=\"open = true; enter = true; color = '#767676';\" x-on:focus=\"open = true; enter = true; color = '#767676';\" x-on:mouseleave=\"enter = false; rowTouching = false; checkScroll();\" x-on:keydown=\"open = true; enter = true; color = '#767676';\" class=\"fixed left-0 top-0 z-50 | w-screen\" @scroll.window=\"checkScroll\" data-has-alpine-state=\"true\">\n    <a tabindex=\"0\" id=\"skip_to_main_content\" class=\"size-0 opacity-0 absolute -left-50 -top-50\" href=\"#hkte_main_content\" onclick=\"event.preventDefault(); document.getElementById('hkte_main_content').focus();\">\n        跳至主要內容\n    </a>\n    \n    <div class=\"min-[1400px]:block hidden | w-full transition-all ease-in-out duration-200 text-white border-transparent\" :class=\"!open ? 'text-white border-transparent' : 'border-b border-light-grey-100 bg-white'\" :style=\"open || 'background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);'\" style=\"background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);\">\n        <div class=\"w-full max-w-[1438px] | mx-auto px-12\">\n            <div class=\"flex justify-between items-center \">\n                <a tabindex=\"0\" href=\"https://www.hkengage.gov.hk/zh-HK\" class=\"inline-block | w-[140px] | text-dark-grey-100\" title=\"人才服務辦公室\">\n                    <!--[if BLOCK]><![endif]-->                        <svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"white\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"white\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"white\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"white\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"white\"></path>\n    <g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M273.19,217.69l-17.23-22.03c-1.52-1.94-3.85-3.08-6.32-3.08h-2.05v38.1s1.21,0,1.21,0c3.42,0,6.2-2.77,6.2-6.2v-18.27l16.53,20.82c1.83,2.3,4.61,3.65,7.55,3.65h1.46v-38.04h-1.29c-3.18,0-6.06,2.71-6.06,6.07v18.99Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M306.67,216.34h6.07c.87,0,1.58.71,1.58,1.58v1.05c-1.38,1.61-2.84,2.86-4.39,3.74-1.75,1-3.6,1.5-5.56,1.5-1.64,0-3.14-.32-4.49-.96-1.36-.64-2.54-1.54-3.56-2.7-1.02-1.16-1.8-2.5-2.35-4.04-.55-1.53-.83-3.21-.83-5.03,0-1.71.25-3.33.75-4.87.5-1.53,1.23-2.89,2.19-4.06.96-1.18,2.11-2.1,3.45-2.78,1.34-.68,2.81-1.02,4.41-1.02,2.03,0,3.92.5,5.67,1.5,1.75,1,3.08,2.44,4.01,4.33l5.51-4.06c-1.28-2.53-3.2-4.55-5.75-6.04-2.55-1.5-5.63-2.25-9.23-2.25-2.6,0-5.03.49-7.27,1.47-2.25.98-4.2,2.35-5.86,4.12-1.66,1.76-2.96,3.8-3.91,6.1-.94,2.3-1.42,4.75-1.42,7.35,0,2.78.46,5.34,1.39,7.67.93,2.34,2.22,4.4,3.88,6.18,1.66,1.78,3.57,3.16,5.75,4.15,2.17.98,4.51,1.47,7.01,1.47,4.01,0,7.54-1.51,10.59-4.53v4.27h6.1v-14.05c0-3.02-2.45-5.47-5.47-5.47h-8.28v5.4Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M236.86,198.32c-1.6-1.85-3.54-3.33-5.8-4.44-2.26-1.11-4.77-1.66-7.51-1.66s-5.15.53-7.43,1.58c-2.28,1.05-4.25,2.48-5.91,4.28-1.66,1.8-2.96,3.85-3.9,6.15-.95,2.3-1.42,4.71-1.42,7.25s.44,4.79,1.34,7.09c.89,2.3,2.16,4.37,3.8,6.2,1.64,1.84,3.58,3.29,5.83,4.36,2.25,1.07,4.76,1.6,7.54,1.6s5.14-.52,7.41-1.55c2.26-1.03,4.23-2.45,5.88-4.25,1.66-1.8,2.94-3.85,3.85-6.15.91-2.3,1.36-4.7,1.36-7.19s-.44-4.78-1.31-7.06c-.88-2.28-2.11-4.35-3.72-6.2ZM233.76,216.08c-.46,1.53-1.17,2.91-2.11,4.12-.95,1.21-2.09,2.18-3.45,2.91-1.36.73-2.94,1.1-4.76,1.1s-3.31-.35-4.68-1.04c-1.37-.7-2.53-1.64-3.48-2.84-.95-1.19-1.67-2.56-2.17-4.09-.5-1.53-.75-3.12-.75-4.76s.24-3.11.72-4.63c.48-1.52,1.19-2.87,2.14-4.06.94-1.19,2.1-2.16,3.48-2.89,1.37-.73,2.93-1.1,4.68-1.1s3.3.35,4.65,1.04c1.35.7,2.51,1.64,3.48,2.83.96,1.2,1.69,2.55,2.19,4.06.5,1.52.75,3.09.75,4.73,0,1.53-.23,3.07-.7,4.6Z\" fill=\"white\"></path>\n            <g>\n                <path :fill=\"color ?? 'white'\" d=\"M205.5,192.52h-6.04c-1.48,0-2.92.2-4.11,1.5l-11.11,12.87s-1.33,1.54-2.7,1.54h-.83v-15.93h-7.43v37.97h.25c3.64,0,7.18-2.95,7.18-6.59v-10.07h1.83c2.14.07,4.95-.85,7.83-4.11.12-.12.25-.27.38-.43.21-.24.41-.49.61-.75h-.01c.06-.08.13-.15.19-.22l13.96-15.77Z\" fill=\"white\"></path>\n                <path :fill=\"color ?? 'white'\" d=\"M196.48,217.23c-2.27-2.81-4.86-2.51-4.86-2.51h-6.67l10.98,13.46s1.68,2.28,4.99,2.28h6.32l-10.76-13.23Z\" fill=\"white\"></path>\n            </g>\n        </g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M24.6,214.26v16.21h.73c3.64,0,6.59-2.95,6.59-6.59v-31.38h-7.33v21.77Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M69.7,198.32c-1.6-1.85-3.54-3.33-5.8-4.44-2.26-1.11-4.77-1.66-7.51-1.66s-5.15.53-7.43,1.58c-2.28,1.05-4.25,2.48-5.91,4.28-1.66,1.8-2.96,3.85-3.9,6.15-.95,2.3-1.42,4.71-1.42,7.25s.44,4.79,1.34,7.09c.89,2.3,2.16,4.37,3.8,6.2,1.64,1.84,3.58,3.29,5.83,4.36,2.25,1.07,4.76,1.6,7.54,1.6s5.14-.52,7.41-1.55c2.26-1.03,4.23-2.45,5.88-4.25,1.66-1.8,2.94-3.85,3.85-6.15.91-2.3,1.36-4.7,1.36-7.19s-.44-4.78-1.31-7.06c-.88-2.28-2.11-4.35-3.72-6.2ZM66.6,216.08c-.46,1.53-1.17,2.91-2.11,4.12-.95,1.21-2.09,2.18-3.45,2.91-1.36.73-2.94,1.1-4.76,1.1s-3.31-.35-4.68-1.04c-1.37-.7-2.53-1.64-3.48-2.84-.95-1.19-1.67-2.56-2.17-4.09-.5-1.53-.75-3.12-.75-4.76s.24-3.11.72-4.63c.48-1.52,1.19-2.87,2.14-4.06.94-1.19,2.1-2.16,3.48-2.89,1.37-.73,2.93-1.1,4.68-1.1s3.3.35,4.65,1.04c1.35.7,2.51,1.64,3.48,2.83.96,1.2,1.69,2.55,2.19,4.06.5,1.52.75,3.09.75,4.73,0,1.53-.23,3.07-.7,4.6Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M140.16,216.34h6.07c.87,0,1.58.71,1.58,1.58v1.05c-1.38,1.61-2.84,2.86-4.39,3.74-1.75,1-3.6,1.5-5.56,1.5-1.64,0-3.14-.32-4.49-.96-1.36-.64-2.54-1.54-3.56-2.7-1.02-1.16-1.8-2.5-2.35-4.04-.55-1.53-.83-3.21-.83-5.03,0-1.71.25-3.33.75-4.87.5-1.53,1.23-2.89,2.19-4.06.96-1.18,2.11-2.1,3.45-2.78,1.34-.68,2.81-1.02,4.41-1.02,2.03,0,3.92.5,5.67,1.5,1.75,1,3.08,2.44,4.01,4.33l5.51-4.06c-1.28-2.53-3.2-4.55-5.75-6.04-2.55-1.5-5.63-2.25-9.23-2.25-2.6,0-5.03.49-7.27,1.47-2.25.98-4.2,2.35-5.86,4.12-1.66,1.76-2.96,3.8-3.91,6.1-.94,2.3-1.42,4.75-1.42,7.35,0,2.78.46,5.34,1.39,7.67.93,2.34,2.22,4.4,3.88,6.18,1.66,1.78,3.57,3.16,5.75,4.15,2.17.98,4.51,1.47,7.01,1.47,4.01,0,7.54-1.51,10.59-4.53v4.27h6.1v-14.05c0-3.02-2.45-5.47-5.47-5.47h-8.28v5.4Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M7.38,207.84v-15.35H0v37.97h.79c3.64,0,6.59-2.95,6.59-6.59v-9.61h9.72c3.54,0,6.42-2.87,6.42-6.42H7.38Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M106.05,217.69l-17.23-22.03c-1.52-1.94-3.85-3.08-6.32-3.08h-2.05v38.1s1.21,0,1.21,0c3.42,0,6.2-2.77,6.2-6.2v-18.27l16.53,20.82c1.83,2.3,4.61,3.65,7.55,3.65h1.46v-38.04h-1.29c-3.18,0-6.06,2.71-6.06,6.07v18.99Z\" fill=\"white\"></path>\n        </g>\n    </g>\n    <g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M200.56,244.36h-39.82v8.15h15.36v39.68h0c5.1,0,9.23-4.13,9.23-9.23v-30.45h7.07c4.5,0,8.15-3.65,8.15-8.15h0Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M410.51,244.36h-39.82v8.15h15.36v39.68h0c5.1,0,9.23-4.13,9.23-9.23v-30.45h7.07c4.5,0,8.15-3.65,8.15-8.15h0Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M213.61,244.36l-17.65,47.83h3.1c3.86,0,7.29-2.47,8.52-6.13l1.94-5.79h17.56l2.07,6.2c1.14,3.42,4.34,5.72,7.94,5.72h3.54l-17.58-47.83h-9.43ZM211.71,273.74l6.61-19.74,6.58,19.74h-13.19Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M254.49,244.36h-9.3v47.83h25.53c4.5,0,8.15-3.65,8.15-8.15h0s-24.39,0-24.39,0v-39.68Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M292.89,271.58h12.53c4.17,0,7.55-3.38,7.55-7.55h0s-20.08,0-20.08,0v-11.52h15.16c4.5,0,8.15-3.65,8.15-8.15h0s-32.61,0-32.61,0v47.83h25.06c4.5,0,8.15-3.65,8.15-8.15h0s-23.92,0-23.92,0v-12.46Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M357.47,275.89l-21.64-27.66c-1.91-2.44-4.83-3.86-7.93-3.86h-2.57v47.83s1.52,0,1.52,0c4.3,0,7.78-3.48,7.78-7.78v-22.94l20.75,26.14c2.3,2.89,5.79,4.58,9.48,4.58h1.83v-47.76h-1.62c-3.99,0-7.61,3.4-7.61,7.62v23.84Z\" fill=\"white\"></path>\n        </g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M587.29,244.36l-17.65,47.83h3.1c3.86,0,7.29-2.47,8.52-6.13l1.94-5.79h17.56l2.07,6.2c1.14,3.42,4.34,5.72,7.94,5.72h3.54l-17.58-47.83h-9.43ZM585.39,273.74l6.61-19.74,6.58,19.74h-13.19Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M442.11,271.58h12.53c4.17,0,7.55-3.38,7.55-7.55h0s-20.08,0-20.08,0v-11.52h15.16c4.5,0,8.15-3.65,8.15-8.15h0s-32.61,0-32.61,0v47.83h25.06c4.5,0,8.15-3.65,8.15-8.15h0s-23.92,0-23.92,0v-12.46Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M676.08,271.58h12.53c4.17,0,7.55-3.38,7.55-7.55h0s-20.08,0-20.08,0v-11.52h15.16c4.5,0,8.15-"
+      },
+      {
+        "tagName": "SCRIPT",
+        "id": "",
+        "classes": "",
+        "htmlPreview": "<script>\n    document.addEventListener('alpine:init', () => {\n        Alpine.data('common', () => ({\n            formOffsetTop: window.innerWidth >= 1024 ? 120 : 80,\n\n            init() {\n                Livewire.on('triggerModal', (open) => {\n                    this.triggerModal(open[0]);\n                });\n\n                document.addEventListener('triggermodal', (event) => {\n                    this.triggerModal(event.detail.open);\n                });\n\n                $('.wechat').click(() => {\n                    if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {\n                        window.open('https://mp.weixin.qq.com/s/-brXwtUiH8kc-Pk4LRsdrQ', '_blank').focus();\n                    } else {\n                        this.$dispatch('openwechat')\n                    }\n                });\n            },\n\n            triggerFormResize() {\n                this.formOffsetTop = window.innerWidth >= 1024 ? 120 : 80;\n            },\n\n            triggerModal(open) {\n                document.documentElement.classList.toggle('overflow-hidden', open);\n            }\n        }));\n    });\n\n    Livewire.hook('commit', ({fail}) => {\n        fail(({preventDefault}) => {\n            preventDefault();\n        })\n    })\n</script>"
+      },
+      {
+        "tagName": "SCRIPT",
+        "id": "",
+        "classes": "",
+        "htmlPreview": "<script>\n        document.addEventListener('alpine:init', () => {\n            Alpine.data('visaApplication', () => ({\n                selectedChoice: '',\n                modalOpened: false,\n\n                init() {\n                    const handleModalFocus =  document.addEventListener('keydown', e => {\n                        if (e.key === 'Tab') {\n                            const focused = document.querySelector(':focus')\n\n                            if(focused?.getAttribute('wire:click') === 'triggerSearch(false)') {\n                                e.preventDefault();\n                                document.querySelector('#visa_filter_button').focus()\n                            }\n                        }\n                        if (e.key === 'Escape') {\n                            window.Livewire.find('pui7qq3CEKN2qrwYze5n').call('triggerOpen')\n                        }\n                    });\n\n                    document.removeEventListener('keydown', handleModalFocus);\n\n                    this.updateSelectedChoice('');\n\n                    if (window.location.hash === '#tool') {\n                        window.Livewire.find('pui7qq3CEKN2qrwYze5n').set('opened', true);\n                        const visaTop = document.getElementById('visa_top');\n                        const offsetY = 140;\n                        if (visaTop) {\n                            const y = visaTop.getBoundingClientRect().top + window.pageYOffset - offsetY;\n                            window.scrollTo({ top: y, behavior: 'smooth' });\n                        }\n                    }\n\n                    Livewire.on('updated_suitable_scheme', () => {\n                        setTimeout(() => {\n                            aos.init({once: true});\n                        }, 500);\n\n                        $([document.documentElement, document.body]).animate({\n                            scrollTop: $(`#schemes`).offset().top - this.formOffsetTop\n                        }, 1000);\n                    });\n\n                    Livewire.on('question_submission', (q) => {\n                        dataLayer.push({\n                            event      : 'question_submission',\n                            question_no: q[0]\n                        });\n                    })\n                },\n\n                updateSelectedChoice(value) {\n                    this.selectedChoice = value;\n                    window.Livewire.find('pui7qq3CEKN2qrwYze5n').set('selected_choice', this.selectedChoice);\n                },\n\n                updateOpened() {\n                    window.Livewire.find('pui7qq3CEKN2qrwYze5n').set('opened', true);\n                },\n\n                dataLayerPush(type, name) {\n                    dataLayer.push({\n                        event      : type,\n                        scheme_name: name\n                    });\n                }\n            }))\n        })\n    </script>"
+      },
+      {
+        "tagName": "SCRIPT",
+        "id": "",
+        "classes": "",
+        "htmlPreview": "<script>\n        function openUniversityList() {\n            const url = '/zh-HK/how-to-apply-for-a-visa/admission-scheme-matching-tool-institutions/';\n            const windowName = '入境計劃配對工具 - 教育機構';\n            const windowFeatures = 'width=800,height=600,left=200,top=200,toolbar=0,status=0,';\n\n            window.open(url, windowName, windowFeatures);\n        }\n\n        function openUniversityListQmas(event) {\n            if (event) event.preventDefault();\n\n            const url = '/zh-HK/how-to-apply-for-a-visa/admission-scheme-matching-tool-institutions-qmas';\n            const windowName = '入境計劃配對工具 - 教育機構';\n            const windowFeatures = 'width=800,height=600,left=200,top=200,toolbar=0,status=0,';\n\n            window.open(url, windowName, windowFeatures);\n        }\n    </script>"
+      }
+    ],
+    "directBodyModals": [
+      {
+        "id": "",
+        "classes": "",
+        "position": "static",
+        "zIndex": "auto",
+        "html": "<div x-bind:aria-hidden=\"popupOpen ? 'true' : 'false'\" x-bind:inert=\"popupOpen\" aria-hidden=\"false\">\n    <div wire:id=\"jD6SGlJzDpqhde1GbWHZ\" id=\"header\" x-data=\"header\" x-init=\"if ($el.matches(':hover')) { open = true; enter = true; color = '#767676'; }\" x-on:mouseenter=\"open = true; enter = true; color = '#767676';\" x-on:focus=\"open = true; enter = true; color = '#767676';\" x-on:mouseleave=\"enter = false; rowTouching = false; checkScroll();\" x-on:keydown=\"open = true; enter = true; color = '#767676';\" class=\"fixed left-0 top-0 z-50 | w-screen\" @scroll.window=\"checkScroll\" data-has-alpine-state=\"true\">\n    <a tabindex=\"0\" id=\"skip_to_main_content\" class=\"size-0 opacity-0 absolute -left-50 -top-50\" href=\"#hkte_main_content\" onclick=\"event.preventDefault(); document.getElementById('hkte_main_content').focus();\">\n        跳至主要內容\n    </a>\n    \n    <div class=\"min-[1400px]:block hidden | w-full transition-all ease-in-out duration-200 text-white border-transparent\" :class=\"!open ? 'text-white border-transparent' : 'border-b border-light-grey-100 bg-white'\" :style=\"open || 'background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);'\" style=\"background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);\">\n        <div class=\"w-full max-w-[1438px] | mx-auto px-12\">\n            <div class=\"flex justify-between items-center \">\n                <a tabindex=\"0\" href=\"https://www.hkengage.gov.hk/zh-HK\" class=\"inline-block | w-[140px] | text-dark-grey-100\" title=\"人才服務辦公室\">\n                    <!--[if BLOCK]><![endif]-->                        <svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"white\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"white\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"white\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"white\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"white\"></path>\n    <g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M273.19,217.69l-17.23-22.03c-1.52-1.94-3.85-3.08-6.32-3.08h-2.05v38.1s1.21,0,1.21,0c3.42,0,6.2-2.77,6.2-6.2v-18.27l16.53,20.82c1.83,2.3,4.61,3.65,7.55,3.65h1.46v-38.04h-1.29c-3.18,0-6.06,2.71-6.06,6.07v18.99Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M306.67,216.34h6.07c.87,0,1.58.71,1.58,1.58v1.05c-1.38,1.61-2.84,2.86-4.39,3.74-1.75,1-3.6,1.5-5.56,1.5-1.64,0-3.14-.32-4.49-.96-1.36-.64-2.54-1.54-3.56-2.7-1.02-1.16-1.8-2.5-2.35-4.04-.55-1.53-.83-3.21-.83-5.03,0-1.71.25-3.33.75-4.87.5-1.53,1.23-2.89,2.19-4.06.96-1.18,2.11-2.1,3.45-2.78,1.34-.68,2.81-1.02,4.41-1.02,2.03,0,3.92.5,5.67,1.5,1.75,1,3.08,2.44,4.01,4.33l5.51-4.06c-1.28-2.53-3.2-4.55-5.75-6.04-2.55-1.5-5.63-2.25-9.23-2.25-2.6,0-5.03.49-7.27,1.47-2.25.98-4.2,2.35-5.86,4.12-1.66,1.76-2.96,3.8-3.91,6.1-.94,2.3-1.42,4.75-1.42,7.35,0,2.78.46,5.34,1.39,7.67.93,2.34,2.22,4.4,3.88,6.18,1.66,1.78,3.57,3.16,5.75,4.15,2.17.98,4.51,1.47,7.01,1.47,4.01,0,7.54-1.51,10.59-4.53v4.27h6.1v-14.05c0-3.02-2.45-5.47-5.47-5.47h-8.28v5.4Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M236.86,198.32c-1.6-1.85-3.54-3.33-5.8-4.44-2.26-1.11-4.77-1.66-7.51-1.66s-5.15.53-7.43,1.58c-2.28,1.05-4.25,2.48-5.91,4.28-1.66,1.8-2.96,3.85-3.9,6.15-.95,2.3-1.42,4.71-1.42,7.25s.44,4.79,1.34,7.09c.89,2.3,2.16,4.37,3.8,6.2,1.64,1.84,3.58,3.29,5.83,4.36,2.25,1.07,4.76,1.6,7.54,1.6s5.14-.52,7.41-1.55c2.26-1.03,4.23-2.45,5.88-4.25,1.66-1.8,2.94-3.85,3.85-6.15.91-2.3,1.36-4.7,1.36-7.19s-.44-4.78-1.31-7.06c-.88-2.28-2.11-4.35-3.72-6.2ZM233.76,216.08c-.46,1.53-1.17,2.91-2.11,4.12-.95,1.21-2.09,2.18-3.45,2.91-1.36.73-2.94,1.1-4.76,1.1s-3.31-.35-4.68-1.04c-1.37-.7-2.53-1.64-3.48-2.84-.95-1.19-1.67-2.56-2.17-4.09-.5-1.53-.75-3.12-.75-4.76s.24-3.11.72-4.63c.48-1.52,1.19-2.87,2.14-4.06.94-1.19,2.1-2.16,3.48-2.89,1.37-.73,2.93-1.1,4.68-1.1s3.3.35,4.65,1.04c1.35.7,2.51,1.64,3.48,2.83.96,1.2,1.69,2.55,2.19,4.06.5,1.52.75,3.09.75,4.73,0,1.53-.23,3.07-.7,4.6Z\" fill=\"white\"></path>\n            <g>\n                <path :fill=\"color ?? 'white'\" d=\"M205.5,192.52h-6.04c-1.48,0-2.92.2-4.11,1.5l-11.11,12.87s-1.33,1.54-2.7,1.54h-.83v-15.93h-7.43v37.97h.25c3.64,0,7.18-2.95,7.18-6.59v-10.07h1.83c2.14.07,4.95-.85,7.83-4.11.12-.12.25-.27.38-.43.21-.24.41-.49.61-.75h-.01c.06-.08.13-.15.19-.22l13.96-15.77Z\" fill=\"white\"></path>\n                <path :fill=\"color ?? 'white'\" d=\"M196.48,217.23c-2.27-2.81-4.86-2.51-4.86-2.51h-6.67l10.98,13.46s1.68,2.28,4.99,2.28h6.32l-10.76-13.23Z\" fill=\"white\"></path>\n            </g>\n        </g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M24.6,214.26v16.21h.73c3.64,0,6.59-2.95,6.59-6.59v-31.38h-7.33v21.77Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M69.7,198.32c-1.6-1.85-3.54-3.33-5.8-4.44-2.26-1.11-4.77-1.66-7.51-1.66s-5.15.53-7.43,1.58c-2.28,1.05-4.25,2.48-5.91,4.28-1.66,1.8-2.96,3.85-3.9,6.15-.95,2.3-1.42,4.71-1.42,7.25s.44,4.79,1.34,7.09c.89,2.3,2.16,4.37,3.8,6.2,1.64,1.84,3.58,3.29,5.83,4.36,2.25,1.07,4.76,1.6,7.54,1.6s5.14-.52,7.41-1.55c2.26-1.03,4.23-2.45,5.88-4.25,1.66-1.8,2.94-3.85,3.85-6.15.91-2.3,1.36-4.7,1.36-7.19s-.44-4.78-1.31-7.06c-.88-2.28-2.11-4.35-3.72-6.2ZM66.6,216.08c-.46,1.53-1.17,2.91-2.11,4.12-.95,1.21-2.09,2.18-3.45,2.91-1.36.73-2.94,1.1-4.76,1.1s-3.31-.35-4.68-1.04c-1.37-.7-2.53-1.64-3.48-2.84-.95-1.19-1.67-2.56-2.17-4.09-.5-1.53-.75-3.12-.75-4.76s.24-3.11.72-4.63c.48-1.52,1.19-2.87,2.14-4.06.94-1.19,2.1-2.16,3.48-2.89,1.37-.73,2.93-1.1,4.68-1.1s3.3.35,4.65,1.04c1.35.7,2.51,1.64,3.48,2.83.96,1.2,1.69,2.55,2.19,4.06.5,1.52.75,3.09.75,4.73,0,1.53-.23,3.07-.7,4.6Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M140.16,216.34h6.07c.87,0,1.58.71,1.58,1.58v1.05c-1.38,1.61-2.84,2.86-4.39,3.74-1.75,1-3.6,1.5-5.56,1.5-1.64,0-3.14-.32-4.49-.96-1.36-.64-2.54-1.54-3.56-2.7-1.02-1.16-1.8-2.5-2.35-4.04-.55-1.53-.83-3.21-.83-5.03,0-1.71.25-3.33.75-4.87.5-1.53,1.23-2.89,2.19-4.06.96-1.18,2.11-2.1,3.45-2.78,1.34-.68,2.81-1.02,4.41-1.02,2.03,0,3.92.5,5.67,1.5,1.75,1,3.08,2.44,4.01,4.33l5.51-4.06c-1.28-2.53-3.2-4.55-5.75-6.04-2.55-1.5-5.63-2.25-9.23-2.25-2.6,0-5.03.49-7.27,1.47-2.25.98-4.2,2.35-5.86,4.12-1.66,1.76-2.96,3.8-3.91,6.1-.94,2.3-1.42,4.75-1.42,7.35,0,2.78.46,5.34,1.39,7.67.93,2.34,2.22,4.4,3.88,6.18,1.66,1.78,3.57,3.16,5.75,4.15,2.17.98,4.51,1.47,7.01,1.47,4.01,0,7.54-1.51,10.59-4.53v4.27h6.1v-14.05c0-3.02-2.45-5.47-5.47-5.47h-8.28v5.4Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M7.38,207.84v-15.35H0v37.97h.79c3.64,0,6.59-2.95,6.59-6.59v-9.61h9.72c3.54,0,6.42-2.87,6.42-6.42H7.38Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M106.05,217.69l-17.23-22.03c-1.52-1.94-3.85-3.08-6.32-3.08h-2.05v38.1s1.21,0,1.21,0c3.42,0,6.2-2.77,6.2-6.2v-18.27l16.53,20.82c1.83,2.3,4.61,3.65,7.55,3.65h1.46v-38.04h-1.29c-3.18,0-6.06,2.71-6.06,6.07v18.99Z\" fill=\"white\"></path>\n        </g>\n    </g>\n    <g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M200.56,244.36h-39.82v8.15h15.36v39.68h0c5.1,0,9.23-4.13,9.23-9.23v-30.45h7.07c4.5,0,8.15-3.65,8.15-8.15h0Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M410.51,244.36h-39.82v8.15h15.36v39.68h0c5.1,0,9.23-4.13,9.23-9.23v-30.45h7.07c4.5,0,8.15-3.65,8.15-8.15h0Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M213.61,244.36l-17.65,47.83h3.1c3.86,0,7.29-2.47,8.52-6.13l1.94-5.79h17.56l2.07,6.2c1.14,3.42,4.34,5.72,7.94,5.72h3.54l-17.58-47.83h-9.43ZM211.71,273.74l6.61-19.74,6.58,19.74h-13.19Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M254.49,244.36h-9.3v47.83h25.53c4.5,0,8.15-3.65,8.15-8.15h0s-24.39,0-24.39,0v-39.68Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M292.89,271.58h12.53c4.17,0,7.55-3.38,7.55-7.55h0s-20.08,0-20.08,0v-11.52h15.16c4.5,0,8.15-3.65,8.15-8.15h0s-32.61,0-32.61,0v47.83h25.06c4.5,0,8.15-3.65,8.15-8.15h0s-23.92,0-23.92,0v-12.46Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M357.47,275.89l-21.64-27.66c-1.91-2.44-4.83-3.86-7.93-3.86h-2.57v47.83s1.52,0,1.52,0c4.3,0,7.78-3.48,7.78-7.78v-22.94l20.75,26.14c2.3,2.89,5.79,4.58,9.48,4.58h1.83v-47.76h-1.62c-3.99,0-7.61,3.4-7.61,7.62v23.84Z\" fill=\"white\"></path>\n        </g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M587.29,244.36l-17.65,47.83h3.1c3.86,0,7.29-2.47,8.52-6.13l1.94-5.79h17.56l2.07,6.2c1.14,3.42,4.34,5.72,7.94,5.72h3.54l-17.58-47.83h-9.43ZM585.39,273.74l6.61-19.74,6.58,19.74h-13.19Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M442.11,271.58h12.53c4.17,0,7.55-3.38,7.55-7.55h0s-20.08,0-20.08,0v-11.52h15.16c4.5,0,8.15-3.65,8.15-8.15h0s-32.61,0-32.61,0v47.83h25.06c4.5,0,8.15-3.65,8.15-8.15h0s-23.92,0-23.92,0v-12.46Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M676.08,271.58h12.53c4.17,0,7.55-3.38,7.55-7.55h0s-20.08,0-20.08,0v-11.52h15.16c4.5,0,8.15-"
+      }
+    ]
+  },
+  "panelInfo": {
+    "modals": [],
+    "overlays": [],
+    "drawers": [],
+    "dropdowns": [],
+    "filterPanels": [],
+    "newlyVisibleElements": [
+      {
+        "selector": "[x-data]",
+        "tag": "BODY",
+        "id": "",
+        "classes": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 6884.078125
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1440px",
+          "height": "6884.08px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "hidden auto"
+        },
+        "outerHTML": "<body x-data=\"{ popupOpen: false }\" x-on:popup-open.window=\"popupOpen = true\" x-on:popup-close.window=\"popupOpen = false\" data-aos-easing=\"ease\" data-aos-duration=\"400\" data-aos-delay=\"0\">\n<!-- Google Tag Manager (noscript) -->\n<noscript>\n    <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5JDJWNZ\"\n            height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<div x-bind:aria-hidden=\"popupOpen ? 'true' : 'false'\" x-bind:inert=\"popupOpen\" aria-hidden=\"false\">\n    <div wire:id=\"jD6SGlJzDpqhde1GbWHZ\" id=\"header\" x-data=\"header\" x-init=\"if ($el.matches(':hover')) { open = true; enter = true; color = '#767676'; }\" x-on:mouseenter=\"open = true; enter = true; color = '#767676';\" x-on:focus=\"open = true; enter = true; color = '#767676';\" x-on:mouseleave=\"enter = false; rowTouching = false; checkScroll();\" x-on:keydown=\"open = true; enter = true; color = '#767676';\" class=\"fixed left-0 top-0 z-50 | w-screen\" @scroll.window=\"checkScroll\" data-has-alpine-state=\"true\">\n    <a tabindex=\"0\" id=\"skip_to_main_content\" class=\"size-0 opacity-0 absolute -left-50 -top-50\" href=\"#hkte_main_content\" onclick=\"event.preventDefault(); document.getElementById('hkte_main_content').focus();\">\n        跳至主要內容\n    </a>\n    \n    <div class=\"min-[1400px]:block hidden | w-full transition-all ease-in-out duration-200 text-white border-transparent\" :class=\"!open ? 'text-white border-transparent' : 'border-b border-light-grey-100 bg-white'\" :style=\"open || 'background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);'\" style=\"background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);\">\n        <div class=\"w-full max-w-[1438px] | mx-auto px-12\">\n            <div class=\"flex justify-between items-center \">\n                <a tabindex=\"0\" href=\"https://www.hkengage.gov.hk/zh-HK\" class=\"inline-block | w-[140px] | text-dark-grey-100\" title=\"人才服務辦公室\">\n                    <!--[if BLOCK]><![endif]-->                        <svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"white\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"white\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"white\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"white\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"white\"></path>\n    <g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M273.19,217.69l-17.23-22.03c-1.52-1.94-3.85-3.08-6.32-3.08h-2.05v38.1s1.21,0,1.21,0c3.42,0,6.2-2.77,6.2-6.2v-18.27l16.53,20.82c1.83,2.3,4.61,3.65,7.55,3.65h1.46v-38.04h-1.29c-3.18,0-6.06,2.71-6.06,6.07v18.99Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M306.67,216.34h6.07c.87,0,1.58.71,1.58,1.58v1.05c-1.38,1.61-2.84,2.86-4.39,3.74-1.75,1-3.6,1.5-5.56,1.5-1.64,0-3.14-.32-4.49-.96-1.36-.64-2.54-1.54-3.56-2.7-1.02-1.16-1.8-2.5-2.35-4.04-.55-1.53-.83-3.21-.83-5.03,0-1.71.25-3.33.75-4.87.5-1.53,1.23-2.89,2.19-4.06.96-1.18,2.11-2.1,3.45-2.78,1.34-.68,2.81-1.02,4.41-1.02,2.03,0,3.92.5,5.67,1.5,1.75,1,3.08,2.44,4.01,4.33l5.51-4.06c-1.28-2.53-3.2-4.55-5.75-6.04-2.55-1.5-5.63-2.25-9.23-2.25-2.6,0-5.03.49-7.27,1.47-2.25.98-4.2,2.35-5.86,4.12-1.66,1.76-2.96,3.8-3.91,6.1-.94,2.3-1.42,4.75-1.42,7.35,0,2.78.46,5.34,1.39,7.67.93,2.34,2.22,4.4,3.88,6.18,1.66,1.78,3.57,3.16,5.75,4.15,2.17.98,4.51,1.47,7.01,1.47,4.01,0,7.54-1.51,10.59-4.53v4.27h6.1v-14.05c0-3.02-2.45-5.47-5.47-5.47h-8.28v5.4Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M236.86,198.32c-1.6-1.85-3.54-3.33-5.8-4.44-2.26-1.11-4.77-1.66-7.51-1.66s-5.15.53-7.43,1.58c-2.28,1.05-4.25,2.48-5.91,4.28-1.66,1.8-2.96,3.85-3.9,6.15-.95,2.3-1.42,4.71-1.42,7.25s.44,4.79,1.34,7.09c.89,2.3,2.16,4.37,3.8,6.2,1.64,1.84,3.58,3.29,5.83,4.36,2.25,1.07,4.76,1.6,7.54,1.6s5.14-.52,7.41-1.55c2.2",
+        "textContent": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5JDJWNZ\"\n            height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n\n\n\n\n    \n    \n        跳至主要內容\n    \n    \n    \n        \n            \n                \n                                            \n    \n        \n        \n        \n    \n    \n    \n        \n        \n    \n    \n    \n    \n        \n            \n            \n            \n            \n                \n                \n            \n        \n        \n            \n            \n            \n            \n            \n        \n    \n    \n        \n            \n            \n            \n            \n            \n            \n        \n        \n            \n            \n            \n            \n            \n            \n        \n    \n    \n        \n        \n        \n        \n    \n    \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    \n\n                    \n                \n                                \n                    \n                        \n                                                            \n                                    關於我們\n                                    \n                                \n                                                            \n                                    常見問題\n                                    \n                                \n                                                            \n                                    聯絡我們\n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                \n                            \n                            \n                                繁\n                                \n                                    \n                                \n\n                                \n                 "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "header",
+        "classes": "fixed left-0 top-0 z-50 | w-screen",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 109
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "fixed",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "791px",
+          "left": "0px",
+          "width": "1440px",
+          "height": "109px",
+          "zIndex": "50",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div wire:id=\"jD6SGlJzDpqhde1GbWHZ\" id=\"header\" x-data=\"header\" x-init=\"if ($el.matches(':hover')) { open = true; enter = true; color = '#767676'; }\" x-on:mouseenter=\"open = true; enter = true; color = '#767676';\" x-on:focus=\"open = true; enter = true; color = '#767676';\" x-on:mouseleave=\"enter = false; rowTouching = false; checkScroll();\" x-on:keydown=\"open = true; enter = true; color = '#767676';\" class=\"fixed left-0 top-0 z-50 | w-screen\" @scroll.window=\"checkScroll\" data-has-alpine-state=\"true\">\n    <a tabindex=\"0\" id=\"skip_to_main_content\" class=\"size-0 opacity-0 absolute -left-50 -top-50\" href=\"#hkte_main_content\" onclick=\"event.preventDefault(); document.getElementById('hkte_main_content').focus();\">\n        跳至主要內容\n    </a>\n    \n    <div class=\"min-[1400px]:block hidden | w-full transition-all ease-in-out duration-200 text-white border-transparent\" :class=\"!open ? 'text-white border-transparent' : 'border-b border-light-grey-100 bg-white'\" :style=\"open || 'background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);'\" style=\"background: linear-gradient(180deg, rgba(34, 56, 88, 0.7) 0%, rgba(34, 56, 88, 0) 100%);\">\n        <div class=\"w-full max-w-[1438px] | mx-auto px-12\">\n            <div class=\"flex justify-between items-center \">\n                <a tabindex=\"0\" href=\"https://www.hkengage.gov.hk/zh-HK\" class=\"inline-block | w-[140px] | text-dark-grey-100\" title=\"人才服務辦公室\">\n                    <!--[if BLOCK]><![endif]-->                        <svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"white\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"white\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"white\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"white\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"white\"></path>\n    <g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M273.19,217.69l-17.23-22.03c-1.52-1.94-3.85-3.08-6.32-3.08h-2.05v38.1s1.21,0,1.21,0c3.42,0,6.2-2.77,6.2-6.2v-18.27l16.53,20.82c1.83,2.3,4.61,3.65,7.55,3.65h1.46v-38.04h-1.29c-3.18,0-6.06,2.71-6.06,6.07v18.99Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M306.67,216.34h6.07c.87,0,1.58.71,1.58,1.58v1.05c-1.38,1.61-2.84,2.86-4.39,3.74-1.75,1-3.6,1.5-5.56,1.5-1.64,0-3.14-.32-4.49-.96-1.36-.64-2.54-1.54-3.56-2.7-1.02-1.16-1.8-2.5-2.35-4.04-.55-1.53-.83-3.21-.83-5.03,0-1.71.25-3.33.75-4.87.5-1.53,1.23-2.89,2.19-4.06.96-1.18,2.11-2.1,3.45-2.78,1.34-.68,2.81-1.02,4.41-1.02,2.03,0,3.92.5,5.67,1.5,1.75,1,3.08,2.44,4.01,4.33l5.51-4.06c-1.28-2.53-3.2-4.55-5.75-6.04-2.55-1.5-5.63-2.25-9.23-2.25-2.6,0-5.03.49-7.27,1.47-2.25.98-4.2,2.35-5.86,4.12-1.66,1.76-2.96,3.8-3.91,6.1-.94,2.3-1.42,4.75-1.42,7.35,0,2.78.46,5.34,1.39,7.67.93,2.34,2.22,4.4,3.88,6.18,1.66,1.78,3.57,3.16,5.75,4.15,2.17.98,4.51,1.47,7.01,1.47,4.01,0,7.54-1.51,10.59-4.53v4.27h6.1v-14.05c0-3.02-2.45-5.47-5.47-5.47h-8.28v5.4Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M236.86,198.32c-1.6-1.85-3.54-3.33-5.8-4.44-2.26-1.11-4.77-1.66-7.51-1.66s-5.15.53-7.43,1.58c-2.28,1.05-4.25,2.48-5.91,4.28-1.66,1.8-2.96,3.85-3.9,6.15-.95,2.3-1.42,4.71-1.42,7.25s.44,4.79,1.34,7.09c.89,2.3,2.16,4.37,3.8,6.2,1.64,1.84,3.58,3.29,5.83,4.36,2.25,1.07,4.76,1.6,7.54,1.6s5.14-.52,7.41-1.55c2.26-1.03,4.23-2.45,5.88-4.25,1.66-1.8,2.94-3.85,3.85-6.15.91-2.3,1.36-4.7,1.36-7.19s-.44-4.78-1.31-7.06c-.88-2.28-2.11-4.35-3.72-6.2ZM233.76,216.08c-.46,1.53-1.17,2.91-2.11,4.12-.95,1.21-2.09,2.18-3.45,2.91-1.36.73-2.94,1.1-4.76,1.1s-3.31-.35-4.68-1.04c-1.37-.7-2.53-1.64-3.48-2.84-.95-1.19-1.67-2.56-2.17-4.09-.5-1.53-.75-3.12-.75-4.76s.24-3.11.72-4.63c.48-1.52,1.19-2.87,2.14-4.06.94-1.19,2.1-2.16,3.48-2.89,1.37-.73,2.93-1.1,4.68-1.1s3.3.35,4.65,1.04c1.35.7,2.51,1.64,3.48,2.83.96,1.2,1.69,2.55,2.19,4.06.5,1.52.75,3.09.75,4.73,0,1.53-.23,3.07-.7,4.6Z\" fi",
+        "textContent": "跳至主要內容\n    \n    \n    \n        \n            \n                \n                                            \n    \n        \n        \n        \n    \n    \n    \n        \n        \n    \n    \n    \n    \n        \n            \n            \n            \n            \n                \n                \n            \n        \n        \n            \n            \n            \n            \n            \n        \n    \n    \n        \n            \n            \n            \n            \n            \n            \n        \n        \n            \n            \n            \n            \n            \n            \n        \n    \n    \n        \n        \n        \n        \n    \n    \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    \n\n                    \n                \n                                \n                    \n                        \n                                                            \n                                    關於我們\n                                    \n                                \n                                                            \n                                    常見問題\n                                    \n                                \n                                                            \n                                    聯絡我們\n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                \n                            \n                            \n                                繁\n                                \n                                    \n                                \n\n                                \n                                                                                                                        EN\n                                        \n                           "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "hkte_main_content",
+        "classes": "relative |  mt-[70px] min-[1400px]:mt-[106px] ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 6263
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1440px",
+          "height": "6263px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div id=\"hkte_main_content\" class=\"relative |  mt-[70px] min-[1400px]:mt-[106px] \" x-data=\"common\" tabindex=\"-1\">\n            <div class=\"relative z-10 | flex items-center | h-80 lg:h-[526px] | pt-6 px-5  -mt-[71px] lg:-mt-26.5  | bg-cover bg-no-repeat bg-center\" data-bg=\"/assets/images/landing/visa-application.png\" style=\"background-image: url(&quot;/assets/images/landing/visa-application.png&quot;); opacity: 1;\">\n        <div class=\"relative | flex flex-col items-start justify-center gap-y-4 | w-full max-w-[1342px] | mx-auto\">\n                            <h1 class=\"common-text-shadow | w-full md:w-2/5 xl:w-3/5 text-white aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"100\">簽證資訊</h1>\n                        <div class=\"border-b-8 md:border-b-[10px] border-red | w-[130px] aos-init aos-animate\" data-aos=\"fade-right\"></div>\n        </div>\n        <div class=\"absolute bottom-0 left-0 | h-12 lg:h-[75px] w-full\">\n        <div class=\"slant-top  slant-main  slant | absolute left-0 bottom-0 | w-full h-full | bg-red\">\n    </div>\n</div>\n    </div>\n    <div class=\"\n        landing-content__bg |\n        relative |\n         landing-content__bg-arrow | bg-[#08415C] bg-no-repeat bg-right-top  |\n        pt-12 md:pt-20  |\n        text-white\">\n                    <div class=\"mask mask-n\" data-bg=\"/assets/images/bg-n-mask.png\" x-data=\"{ mounted: false }\" x-init=\"\n     window.addEventListener('load', () =&gt; {\n        let el = $el;\n        el.style.display = 'none';\n        el.offsetHeight;\n        el.style.display = '';\n    });\n    \" style=\"mix-blend-mode: soft-light; background-image: url(&quot;/assets/images/bg-n-mask.png&quot;); opacity: 1;\"></div>\n                            <div class=\"relative | container-content \">\n                                                                <div>\n                                    </div>\n            </div>\n            <div>\n                <div x-data=\"visaApplication\">\n    <div id=\"visa_top\" class=\"container-content | flex flex-col gap-y-2 | mb-15\">\n        <h2 data-aos=\"fade-up\" class=\"aos-init aos-animate\">\n            尋找適合你的人才入境計劃\n        </h2>\n        <div class=\"text-justify aos-init aos-animate\" data-aos=\"fade-up\">\n            <p>香港特別行政區政府為有意來港工作及定居的專業人才提供七項人才入境計劃。以下概述各計劃的主要資格，以及「高端人才通行證計劃」下認可的「合資格大學」名單。</p>\n                    <p>你也可以使用我們的「<u @click=\"updateOpened\" class=\"cursor-pointer\">入境計劃配對工具</u>」，只需五分鐘即可快速評估符合申請資格的計劃。</p>\n        </div>\n    </div>\n\n    <div wire:id=\"pui7qq3CEKN2qrwYze5n\" class=\"container-content |  mb-10 lg:mb-20 \" @answer.window=\"updateSelectedChoice($event.detail.value)\">\n    <!--[if BLOCK]><![endif]-->        <div class=\"max-md:h-[480px] fixed bottom-0 left-0 | py-6 md:pt-9 md:pb-12 | w-full | z-40\" @keydown.enter=\"setTimeout(() =&gt; { document.querySelector('.container-content .container-content label:first-child')?.focus() ?? null }, 200);\">\n            <div class=\"max-md:hidden\">\n                <div class=\"absolute -top-12 lg:-top-[75px] left-0 | h-12 lg:h-[75px] w-full\">\n        <div class=\"slant-top  slant | absolute left-0 bottom-0 | w-full h-full | bg-highlight-orange\">\n    </div>\n</div>\n            </div>\n            <div class=\"mask-container | absolute inset-0 | size-full | bg-purple | bg-left-bottom bg-no-repeat\" style=\"background-image: url('/assets/images/visa/tool-bg.png')\">\n                <div class=\"mask mask-n\" x-data=\"{ mounted: false }\" x-init=\"\n     window.addEventListener('load', () =&gt; {\n        let el = $el;\n        el.style.display = 'none';\n        el.offsetHeight;\n        el.style.display = '';\n    });\n    \" style=\"mix-blend-mode: soft-light;  background-image: url('/assets/images/bg-n-mask.png') \"></div>\n            </div>\n            <div class=\"relative | container-content\">\n                <div class=\"flex flex-col gap-y-5\">\n                    <div class=\"flex justify-end\">\n                        <div class=\"min-[1440px]:hidden flex gap-x-1 items-center | cursor-pointer\" wire:click=\"triggerOpen\">\n                            <svg width=\"16\" height=\"16\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                <path d=\"M25 1L1 25M1 1L25 25\" stroke=\"#D7D7D7\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>\n                        </div>\n                    </div>\n                    <div class=\"flex max-md:flex-col gap-x-2 md:items-center justify-between \">\n                        <h3>入境計劃配對工具</h3>\n                    </div>\n                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->\n                    \n                    <div data-aos=\"fade-up\" wire:ignore.self=\"\" class=\"aos-init aos-animate\">\n                                                <!--[if BLOCK]><![endif]-->                            <!--[if BLOCK]><![endif]-->                                <div>\n                                    <div class=\"font-bold md:text-xl | mb-4\">\n                                        Q1. 你來自哪個地區？\n",
+        "textContent": "簽證資訊\n                        \n        \n        \n        \n    \n\n    \n    \n                    \n                            \n                                                                \n                                    \n            \n            \n                \n    \n        \n            尋找適合你的人才入境計劃\n        \n        \n            香港特別行政區政府為有意來港工作及定居的專業人才提供七項人才入境計劃。以下概述各計劃的主要資格，以及「高端人才通行證計劃」下認可的「合資格大學」名單。\n                    你也可以使用我們的「入境計劃配對工具」，只需五分鐘即可快速評估符合申請資格的計劃。\n        \n    \n\n    \n            \n            \n                \n        \n    \n\n            \n            \n                \n            \n            \n                \n                    \n                        \n                            \n                                \n                            \n                        \n                    \n                    \n                        入境計劃配對工具\n                    \n                    \n                    \n                    \n                                                                                                            \n                                    \n                                        Q1. 你來自哪個地區？\n                                    \n                                    \n                                        \n                                            \n            \n            \n                \n                \n                    \n                \n            \n            \n                                    中國內地\n                \n            \n        \n            \n            \n                \n                \n                    \n                \n            \n            \n                                    台灣 / 澳門特別行政區\n                \n            \n        \n            \n            \n                \n                \n                    \n                \n            \n            \n                                    中國以外地區\n                \n            \n        \n    \n\n\n                                        \n           "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "mask mask-n",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "fixed",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1440px",
+          "height": "900px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"mask mask-n\" data-bg=\"/assets/images/bg-n-mask.png\" x-data=\"{ mounted: false }\" x-init=\"\n     window.addEventListener('load', () =&gt; {\n        let el = $el;\n        el.style.display = 'none';\n        el.offsetHeight;\n        el.style.display = '';\n    });\n    \" style=\"mix-blend-mode: soft-light; background-image: url(&quot;/assets/images/bg-n-mask.png&quot;); opacity: 1;\"></div>",
+        "textContent": ""
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "",
+        "rect": {
+          "x": 0,
+          "y": 606,
+          "width": 1440,
+          "height": 5657
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "static",
+          "top": "auto",
+          "right": "auto",
+          "bottom": "auto",
+          "left": "auto",
+          "width": "1440px",
+          "height": "5657px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div x-data=\"visaApplication\">\n    <div id=\"visa_top\" class=\"container-content | flex flex-col gap-y-2 | mb-15\">\n        <h2 data-aos=\"fade-up\" class=\"aos-init aos-animate\">\n            尋找適合你的人才入境計劃\n        </h2>\n        <div class=\"text-justify aos-init aos-animate\" data-aos=\"fade-up\">\n            <p>香港特別行政區政府為有意來港工作及定居的專業人才提供七項人才入境計劃。以下概述各計劃的主要資格，以及「高端人才通行證計劃」下認可的「合資格大學」名單。</p>\n                    <p>你也可以使用我們的「<u @click=\"updateOpened\" class=\"cursor-pointer\">入境計劃配對工具</u>」，只需五分鐘即可快速評估符合申請資格的計劃。</p>\n        </div>\n    </div>\n\n    <div wire:id=\"pui7qq3CEKN2qrwYze5n\" class=\"container-content |  mb-10 lg:mb-20 \" @answer.window=\"updateSelectedChoice($event.detail.value)\">\n    <!--[if BLOCK]><![endif]-->        <div class=\"max-md:h-[480px] fixed bottom-0 left-0 | py-6 md:pt-9 md:pb-12 | w-full | z-40\" @keydown.enter=\"setTimeout(() =&gt; { document.querySelector('.container-content .container-content label:first-child')?.focus() ?? null }, 200);\">\n            <div class=\"max-md:hidden\">\n                <div class=\"absolute -top-12 lg:-top-[75px] left-0 | h-12 lg:h-[75px] w-full\">\n        <div class=\"slant-top  slant | absolute left-0 bottom-0 | w-full h-full | bg-highlight-orange\">\n    </div>\n</div>\n            </div>\n            <div class=\"mask-container | absolute inset-0 | size-full | bg-purple | bg-left-bottom bg-no-repeat\" style=\"background-image: url('/assets/images/visa/tool-bg.png')\">\n                <div class=\"mask mask-n\" x-data=\"{ mounted: false }\" x-init=\"\n     window.addEventListener('load', () =&gt; {\n        let el = $el;\n        el.style.display = 'none';\n        el.offsetHeight;\n        el.style.display = '';\n    });\n    \" style=\"mix-blend-mode: soft-light;  background-image: url('/assets/images/bg-n-mask.png') \"></div>\n            </div>\n            <div class=\"relative | container-content\">\n                <div class=\"flex flex-col gap-y-5\">\n                    <div class=\"flex justify-end\">\n                        <div class=\"min-[1440px]:hidden flex gap-x-1 items-center | cursor-pointer\" wire:click=\"triggerOpen\">\n                            <svg width=\"16\" height=\"16\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                <path d=\"M25 1L1 25M1 1L25 25\" stroke=\"#D7D7D7\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>\n                        </div>\n                    </div>\n                    <div class=\"flex max-md:flex-col gap-x-2 md:items-center justify-between \">\n                        <h3>入境計劃配對工具</h3>\n                    </div>\n                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->\n                    \n                    <div data-aos=\"fade-up\" wire:ignore.self=\"\" class=\"aos-init aos-animate\">\n                                                <!--[if BLOCK]><![endif]-->                            <!--[if BLOCK]><![endif]-->                                <div>\n                                    <div class=\"font-bold md:text-xl | mb-4\">\n                                        Q1. 你來自哪個地區？\n                                    </div>\n                                    <div class=\"flex flex-col justify-between items-start gap-4\">\n                                        <div class=\"flex gap-x-4 | text-black | max-lg:w-full\" wire:key=\"question_1\">\n                                            <div class=\"flex flex-col lg:flex-row w-full min-w-[180px] gap-2 lg:gap-4 | text-base\" x-data=\"{\n                selected: '',\n\n                init() {\n                    this.$watch('selected', () =&gt; {\n                                                    //\n                            this.$dispatch('answer', {value: this.selected});\n                                            });\n                                    },\n\n                checkCurrent(value) {\n                    return this.selected === value;\n                },\n            }\">\n    <!--[if BLOCK]><![endif]-->        <label tabindex=\"0\" @keydown.enter.prevent=\"const el = document.getElementById(&quot;question_1mainland&quot;).click();\" for=\"question_1mainland\" class=\"radio-container | flex gap-x-2.5 lg:gap-x-3 items-center min-h-12 border rounded px-4 lg:px-5 py-2 bg-white cursor-pointer transition-all ease-in-out duration-200 border-[#545454]\" :class=\"checkCurrent('mainland') ? 'border-blue' : 'border-[#545454]'\">\n            <span class=\"relative | block | w-5 h-5 min-w-5 min-h-5\">\n                <input class=\"hidden\" type=\"radio\" id=\"question_1mainland\" name=\"question_1\" value=\"mainland\" x-model=\"selected\" style=\"\">\n                <span class=\"radio-container__box | relative inline-block size-full border-2 rounded-full transition-all ease-in-out duration-200 border-[#545454]\" x-bind:class=\"`border-${checkCurrent('mainland') ? 'blue' : '[#545454]'}`\">\n                    <span class=\"x-center y-center | inline-block h-2.5 w-2.5 rounded-full transition-all ease-in-out duration-200 bg-transparent\" x-bind:clas",
+        "textContent": "尋找適合你的人才入境計劃\n        \n        \n            香港特別行政區政府為有意來港工作及定居的專業人才提供七項人才入境計劃。以下概述各計劃的主要資格，以及「高端人才通行證計劃」下認可的「合資格大學」名單。\n                    你也可以使用我們的「入境計劃配對工具」，只需五分鐘即可快速評估符合申請資格的計劃。\n        \n    \n\n    \n            \n            \n                \n        \n    \n\n            \n            \n                \n            \n            \n                \n                    \n                        \n                            \n                                \n                            \n                        \n                    \n                    \n                        入境計劃配對工具\n                    \n                    \n                    \n                    \n                                                                                                            \n                                    \n                                        Q1. 你來自哪個地區？\n                                    \n                                    \n                                        \n                                            \n            \n            \n                \n                \n                    \n                \n            \n            \n                                    中國內地\n                \n            \n        \n            \n            \n                \n                \n                    \n                \n            \n            \n                                    台灣 / 澳門特別行政區\n                \n            \n        \n            \n            \n                \n                \n                    \n                \n            \n            \n                                    中國以外地區\n                \n            \n        \n    \n\n\n                                        \n                                        \n                                            \n                                                                                                    \n                \n            \n                                下一步\n                            \n                    \n  "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "mask mask-n",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "fixed",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1440px",
+          "height": "900px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"mask mask-n\" x-data=\"{ mounted: false }\" x-init=\"\n     window.addEventListener('load', () =&gt; {\n        let el = $el;\n        el.style.display = 'none';\n        el.offsetHeight;\n        el.style.display = '';\n    });\n    \" style=\"mix-blend-mode: soft-light;  background-image: url('/assets/images/bg-n-mask.png') \"></div>",
+        "textContent": ""
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "flex flex-col lg:flex-row w-full min-w-[180px] gap-2 lg:gap-4 | text-base",
+        "rect": {
+          "x": 150,
+          "y": 744,
+          "width": 582.59375,
+          "height": 48
+        },
+        "computedStyles": {
+          "display": "flex",
+          "position": "static",
+          "top": "auto",
+          "right": "auto",
+          "bottom": "auto",
+          "left": "auto",
+          "width": "582.594px",
+          "height": "48px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"flex flex-col lg:flex-row w-full min-w-[180px] gap-2 lg:gap-4 | text-base\" x-data=\"{\n                selected: '',\n\n                init() {\n                    this.$watch('selected', () =&gt; {\n                                                    //\n                            this.$dispatch('answer', {value: this.selected});\n                                            });\n                                    },\n\n                checkCurrent(value) {\n                    return this.selected === value;\n                },\n            }\">\n    <!--[if BLOCK]><![endif]-->        <label tabindex=\"0\" @keydown.enter.prevent=\"const el = document.getElementById(&quot;question_1mainland&quot;).click();\" for=\"question_1mainland\" class=\"radio-container | flex gap-x-2.5 lg:gap-x-3 items-center min-h-12 border rounded px-4 lg:px-5 py-2 bg-white cursor-pointer transition-all ease-in-out duration-200 border-[#545454]\" :class=\"checkCurrent('mainland') ? 'border-blue' : 'border-[#545454]'\">\n            <span class=\"relative | block | w-5 h-5 min-w-5 min-h-5\">\n                <input class=\"hidden\" type=\"radio\" id=\"question_1mainland\" name=\"question_1\" value=\"mainland\" x-model=\"selected\" style=\"\">\n                <span class=\"radio-container__box | relative inline-block size-full border-2 rounded-full transition-all ease-in-out duration-200 border-[#545454]\" x-bind:class=\"`border-${checkCurrent('mainland') ? 'blue' : '[#545454]'}`\">\n                    <span class=\"x-center y-center | inline-block h-2.5 w-2.5 rounded-full transition-all ease-in-out duration-200 bg-transparent\" x-bind:class=\"checkCurrent('mainland') ? 'bg-blue' : 'bg-transparent'\"></span>\n                </span>\n            </span>\n            <span x-bind:class=\"checkCurrent('mainland') ? 'text-blue' : 'text-[#545454] font-normal'\" class=\"text-[#545454] font-normal\">\n                <!--[if BLOCK]><![endif]-->                    中國內地\n                <!--[if ENDBLOCK]><![endif]-->\n            </span>\n        </label>\n            <label tabindex=\"0\" @keydown.enter.prevent=\"const el = document.getElementById(&quot;question_1taiwan_macao&quot;).click();\" for=\"question_1taiwan_macao\" class=\"radio-container | flex gap-x-2.5 lg:gap-x-3 items-center min-h-12 border rounded px-4 lg:px-5 py-2 bg-white cursor-pointer transition-all ease-in-out duration-200 border-[#545454]\" :class=\"checkCurrent('taiwan_macao') ? 'border-blue' : 'border-[#545454]'\">\n            <span class=\"relative | block | w-5 h-5 min-w-5 min-h-5\">\n                <input class=\"hidden\" type=\"radio\" id=\"question_1taiwan_macao\" name=\"question_1\" value=\"taiwan_macao\" x-model=\"selected\" style=\"\">\n                <span class=\"radio-container__box | relative inline-block size-full border-2 rounded-full transition-all ease-in-out duration-200 border-[#545454]\" x-bind:class=\"`border-${checkCurrent('taiwan_macao') ? 'blue' : '[#545454]'}`\">\n                    <span class=\"x-center y-center | inline-block h-2.5 w-2.5 rounded-full transition-all ease-in-out duration-200 bg-transparent\" x-bind:class=\"checkCurrent('taiwan_macao') ? 'bg-blue' : 'bg-transparent'\"></span>\n                </span>\n            </span>\n            <span x-bind:class=\"checkCurrent('taiwan_macao') ? 'text-blue' : 'text-[#545454] font-normal'\" class=\"text-[#545454] font-normal\">\n                <!--[if BLOCK]><![endif]-->                    台灣 / 澳門特別行政區\n                <!--[if ENDBLOCK]><![endif]-->\n            </span>\n        </label>\n            <label tabindex=\"0\" @keydown.enter.prevent=\"const el = document.getElementById(&quot;question_1other_country&quot;).click();\" for=\"question_1other_country\" class=\"radio-container | flex gap-x-2.5 lg:gap-x-3 items-center min-h-12 border rounded px-4 lg:px-5 py-2 bg-white cursor-pointer transition-all ease-in-out duration-200 border-[#545454]\" :class=\"checkCurrent('other_country') ? 'border-blue' : 'border-[#545454]'\">\n            <span class=\"relative | block | w-5 h-5 min-w-5 min-h-5\">\n                <input class=\"hidden\" type=\"radio\" id=\"question_1other_country\" name=\"question_1\" value=\"other_country\" x-model=\"selected\" style=\"\">\n                <span class=\"radio-container__box | relative inline-block size-full border-2 rounded-full transition-all ease-in-out duration-200 border-[#545454]\" x-bind:class=\"`border-${checkCurrent('other_country') ? 'blue' : '[#545454]'}`\">\n                    <span class=\"x-center y-center | inline-block h-2.5 w-2.5 rounded-full transition-all ease-in-out duration-200 bg-transparent\" x-bind:class=\"checkCurrent('other_country') ? 'bg-blue' : 'bg-transparent'\"></span>\n                </span>\n            </span>\n            <span x-bind:class=\"checkCurrent('other_country') ? 'text-blue' : 'text-[#545454] font-normal'\" class=\"text-[#545454] font-normal\">\n                <!--[if BLOCK]><![endif]-->                    中國以外地區\n                <!--[if ENDBLOCK]><![endif]-->\n            </span>\n        </label>\n    <!--[if ENDBLOCK]><![endif]-->\n</div>",
+        "textContent": "中國內地\n                \n            \n        \n            \n            \n                \n                \n                    \n                \n            \n            \n                                    台灣 / 澳門特別行政區\n                \n            \n        \n            \n            \n                \n                \n                    \n                \n            \n            \n                                    中國以外地區"
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12",
+        "rect": {
+          "x": 150,
+          "y": 920,
+          "width": 1140,
+          "height": 476
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1140px",
+          "height": "476px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "4px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12\" x-data=\"{expand: false}\" wire:key=\"1\" data-has-alpine-state=\"true\">\n                        <div class=\"absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10\"></div>\n                        <div class=\"relative\">\n                            <div class=\"flex gap-x-6 lg:items-center | mb-4 lg:mb-10\">\n                                \n                                <span class=\"text-h1-lg leading-none font-bold\">1</span>\n                                <h3 class=\"text-h4 font-bold\">高端人才通行證計劃</h3>\n                            </div>\n                            <div class=\"flex max-lg:flex-col gap-x-10 gap-y-6 | my-6 lg:my-10\">\n                                <div class=\"flex flex-col gap-y-6\">\n                                    <div class=\"content | flex flex-col gap-y-4\">\n                                        <div class=\"font-bold\">\n                                            申請資格\n                                        </div>\n                                        <div class=\"grid  gap-8 | text-justify\">\n                                            <!--[if BLOCK]><![endif]-->                                                <div>有意來港工作及定居，而未在港獲聘的人才<sup>#</sup>，可根據高端人才通行證計劃提出申請。 申請人可選擇以下申請類別：</div>\n                                                <!--[if BLOCK]><![endif]-->                                                    <ol>\n                                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                                                                                    <li>申請人在緊接申請前一年，全年收入達港幣250萬元或以上，或等值的外幣(A類申請);</li>\n                                                                                                                                <li>申請人獲<a href=\"#\" onclick=\"openUniversityList()\" title=\"合資格大學\">合資格大學</a>頒授學士學位，並在緊接申請前五年內累積至少三年工作經驗(B類申請)；或</li>\n                                                                                                                                <li>申請人在緊接申請前五年內，獲<a href=\"#\" onclick=\"openUniversityList()\" title=\"合資格大學\">合資格大學</a>*頒授學士學位，但工作經驗少於三年(C類申請)，這類申請受年度配額限制，且以先到先得的方式分配。此外，C類申請並不適用於在香港特區修讀全日制經本地評審課程而獲得學士學位的非本地學生</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                            <!--[if BLOCK]><![endif]-->                                                    </ol>\n                                                    <!--[if ENDBLOCK]><![endif]-->\n                                            <!--[if ENDBLOCK]><![endif]-->\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"grid transition-[grid-template-rows] transition-all ease-in-out duration-400 grid-rows-[0fr]\" :class=\"expand ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                                <div class=\"overflow-hidden\">\n                                    <!--[if BLOCK]><![endif]-->                                        <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                <div class=\"font-bold\">\n                                                    逗留期限\n                                                </div>\n                                                <div class=\"grid  gap-8\">\n                                                    <!--[if BLOCK]><![endif]-->                                                        <ul>\n                                                                                                                            <li>根據高端人才通行證計劃獲准來港人士，一般首次入境可獲准在港逗留36個月（A類申請）或24個月（B類及C類申請），而不受其他逗留條件限制。申請延長逗留期限時，申請人須已在香港特區受聘並能從中獲得穩定收入，或已在香港特區開辦或參與業務；獲批准的申請人，一般可獲准延長逗留不多於三年，而不受其他逗留條件限制。符合頂尖人才類別資格人士延長逗留期限進一步放寬至6年。</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                        </ul>\n                                                    <!--[if ENDBLOCK]><![endif]-->\n                                                </div>\n                                            </div>\n                                        </div>\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                                                            <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                                                                    <div class=\"text-justify\">* <a href=\"#\" onclick=\"openUniversityList()\" title=\"Eligible universities\">合資格大學</a>是指合資格大學綜合名單",
+        "textContent": "1\n                                高端人才通行證計劃\n                            \n                            \n                                \n                                    \n                                        \n                                            申請資格\n                                        \n                                        \n                                                                                            有意來港工作及定居，而未在港獲聘的人才#，可根據高端人才通行證計劃提出申請。 申請人可選擇以下申請類別：\n                                                                                                    \n                                                        \n                                                                                                                                    申請人在緊接申請前一年，全年收入達港幣250萬元或以上，或等值的外幣(A類申請);\n                                                                                                                                申請人獲合資格大學頒授學士學位，並在緊接申請前五年內累積至少三年工作經驗(B類申請)；或\n                                                                                                                                申請人在緊接申請前五年內，獲合資格大學*頒授學士學位，但工作經驗少於三年(C類申請)，這類申請受年度配額限制，且以先到先得的方式分配。此外，C類申請並不適用於在香港特區修讀全日制經本地評審課程而獲得學士學位的非本地學生\n                                                            \n                                                                                                                \n                                                    \n                                            \n                                        \n                                    \n                                \n                            \n                            \n                                \n                                                                            \n                                            \n                                                \n                                                    逗留期限\n                                                \n                 "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12",
+        "rect": {
+          "x": 150,
+          "y": 1420,
+          "width": 1140,
+          "height": 628
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1140px",
+          "height": "628px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "4px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12\" x-data=\"{expand: false}\" wire:key=\"2\" data-has-alpine-state=\"true\">\n                        <div class=\"absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10\"></div>\n                        <div class=\"relative\">\n                            <div class=\"flex gap-x-6 lg:items-center | mb-4 lg:mb-10\">\n                                \n                                <span class=\"text-h1-lg leading-none font-bold\">2</span>\n                                <h3 class=\"text-h4 font-bold\">一般就業政策（適用於非內地居民）</h3>\n                            </div>\n                            <div class=\"flex max-lg:flex-col gap-x-10 gap-y-6 | my-6 lg:my-10\">\n                                <div class=\"flex flex-col gap-y-6\">\n                                    <div class=\"content | flex flex-col gap-y-4\">\n                                        <div class=\"font-bold\">\n                                            申請資格\n                                        </div>\n                                        <div class=\"grid  md:grid-cols-2  gap-8 | text-justify\">\n                                            <!--[if BLOCK]><![endif]-->                                                <!--[if BLOCK]><![endif]-->                                                    <div class=\"flex flex-col gap-y-2\">\n                                                        <div class=\"font-bold\">\n                                                            專業人士\n                                                        </div>\n                                                        <div>有意來港工作的海外、台灣及澳門專業人士<sup>#</sup>，可根據一般就業政策提出申請。一般就業政策不限行業，主要申請資格包括 -</div>\n                                                        <!--[if BLOCK]><![endif]-->                                                                    <ul>\n                                                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                        <!--[if BLOCK]><![endif]-->                                                                            <li>已確實獲得聘用，而從事的工作與其學歷或工作經驗有關，並且不能輕易覓得本地人擔任</li>\n                                                                                                                                                <li>薪酬福利與市場水平相若</li>\n                                                                                                                                                <li>具有良好教育背景、技術資格或經證明的專業經驗</li>\n                                                                    <!--[if ENDBLOCK]><![endif]-->\n                                                                    <!--[if BLOCK]><![endif]-->                                                                </ul>\n                                                        <!--[if ENDBLOCK]><![endif]-->\n                                                    </div>\n                                                                                                    <div class=\"flex flex-col gap-y-2\">\n                                                        <div class=\"font-bold\">\n                                                            企業家\n                                                        </div>\n                                                        <div>計劃在香港開辦或參與業務的海外、台灣及澳門企業家<sup>#</sup>，可根據一般就業政策提出申請。主要申請資格包括 -</div>\n                                                        <!--[if BLOCK]><![endif]-->                                                                    <ul>\n                                                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                        <!--[if BLOCK]><![endif]-->                                                                            <li>具有良好教育背景、技術資格或經證明的專業能力及／或備有文件證明的有關經驗和成就</li>\n                                                                                                                                                <li>能夠對本地經濟作出重大貢獻，當中會考慮各項因素，包括：\n                            <ul>\n                            <li>業務計劃、投資款額及引進的新科技或技能</li>\n                            <li>營業額、在本地開設的職位數目及財政資源</li>\n                            <li>計劃在香港開辦或參與初創業務的企業家，如其初創業務獲得政府支援的計劃支持*，其申請可獲優先考慮批准</li>\n                            </ul></li>\n                                                                    <!--[if ENDBLOCK]><![endif]-->\n                                                                    <!--[if BLOCK]><![endif]-->                                                                </ul>\n                                                        <!--[if ENDBLOCK]><![endif]-->\n                                                    </div>\n                                                <!--[if ENDBLOCK]><![endif]-->\n                                            <!--[if ENDBLOCK]><![endif]-->\n                                        </div>\n                        ",
+        "textContent": "2\n                                一般就業政策（適用於非內地居民）\n                            \n                            \n                                \n                                    \n                                        \n                                            申請資格\n                                        \n                                        \n                                                                                                                                                \n                                                        \n                                                            專業人士\n                                                        \n                                                        有意來港工作的海外、台灣及澳門專業人士#，可根據一般就業政策提出申請。一般就業政策不限行業，主要申請資格包括 -\n                                                                                                                            \n                                                                        \n                                                                                                                                                    已確實獲得聘用，而從事的工作與其學歷或工作經驗有關，並且不能輕易覓得本地人擔任\n                                                                                                                                                薪酬福利與市場水平相若\n                                                                                                                                                具有良好教育背景、技術資格或經證明的專業經驗\n                                                                    \n                                                                                                                                    \n                                                        \n                                                    \n                                                                                                    \n                                                        \n                                 "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12",
+        "rect": {
+          "x": 150,
+          "y": 2072,
+          "width": 1140,
+          "height": 448
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1140px",
+          "height": "448px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "4px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12\" x-data=\"{expand: false}\" wire:key=\"3\" data-has-alpine-state=\"true\">\n                        <div class=\"absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10\"></div>\n                        <div class=\"relative\">\n                            <div class=\"flex gap-x-6 lg:items-center | mb-4 lg:mb-10\">\n                                \n                                <span class=\"text-h1-lg leading-none font-bold\">3</span>\n                                <h3 class=\"text-h4 font-bold\">輸入內地人才計劃 (適用於內地居民)</h3>\n                            </div>\n                            <div class=\"flex max-lg:flex-col gap-x-10 gap-y-6 | my-6 lg:my-10\">\n                                <div class=\"flex flex-col gap-y-6\">\n                                    <div class=\"content | flex flex-col gap-y-4\">\n                                        <div class=\"font-bold\">\n                                            申請資格\n                                        </div>\n                                        <div class=\"grid  gap-8 | text-justify\">\n                                            <!--[if BLOCK]><![endif]-->                                                <div>有意來港工作的內地專業人士，可根據輸入內地人才計劃提出申請。輸入內地人才計劃不限行業，主要申請資格包括 -</div>\n                                                <!--[if BLOCK]><![endif]-->                                                            <ul>\n                                                                <!--[if ENDBLOCK]><![endif]-->\n                                                                                                                                    <li>已確實獲得聘用，而從事的工作與其學歷或工作經驗有關，並且不能輕易覓得本地人擔任</li>\n                                                                                                                                <li>薪酬福利與市場水平相若</li>\n                                                                                                                                <li>具有良好教育背景、技術資格或經證明的專業經驗</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                            <!--[if BLOCK]><![endif]-->                                                        </ul>\n                                                <!--[if ENDBLOCK]><![endif]-->\n                                            <!--[if ENDBLOCK]><![endif]-->\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"grid transition-[grid-template-rows] transition-all ease-in-out duration-400 grid-rows-[0fr]\" :class=\"expand ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                                <div class=\"overflow-hidden\">\n                                    <!--[if BLOCK]><![endif]-->                                        <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                <div class=\"font-bold\">\n                                                    逗留期限\n                                                </div>\n                                                <div class=\"grid  gap-8\">\n                                                    <!--[if BLOCK]><![endif]-->                                                        <ul>\n                                                                                                                            <li>透過輸入內地人才計劃獲准來港人士可以僱傭身份留港，一般首次入境可獲准在港以僱傭身份逗留 36 個月或根據其僱傭合約的有效期限而定（以較短者為準）。申請延長逗留期限時，有關申請只會在申請人仍然符合輸入內地人才計劃所訂的申請資格的情況下才會獲得考慮；成功申請者仍會以僱傭身份留港，而其延長逗留期限通常會以 3 + 2 年的模式或根據其僱傭合約的有效期限 （以較短者為準）批出。</li>\n                                                                                                                            <li>符合頂尖人才類別資格人士一般會獲准延期逗留五年而不受其他逗留條件限制。</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                        </ul>\n                                                    <!--[if ENDBLOCK]><![endif]-->\n                                                </div>\n                                            </div>\n                                        </div>\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                                                            <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                <div class=\"font-bold\">\n                                                    人才清單\n                                                </div>\n                                                <div>\n                                                    <p>2018年制訂首份香港人才清單，旨在更有效及聚焦地吸引高質素人才，以配合香港經濟高增值及多元化",
+        "textContent": "3\n                                輸入內地人才計劃 (適用於內地居民)\n                            \n                            \n                                \n                                    \n                                        \n                                            申請資格\n                                        \n                                        \n                                                                                            有意來港工作的內地專業人士，可根據輸入內地人才計劃提出申請。輸入內地人才計劃不限行業，主要申請資格包括 -\n                                                                                                            \n                                                                \n                                                                                                                                    已確實獲得聘用，而從事的工作與其學歷或工作經驗有關，並且不能輕易覓得本地人擔任\n                                                                                                                                薪酬福利與市場水平相若\n                                                                                                                                具有良好教育背景、技術資格或經證明的專業經驗\n                                                            \n                                                                                                                    \n                                                \n                                            \n                                        \n                                    \n                                \n                            \n                            \n                                \n                                                                            \n                                            \n                                                \n                                                    逗留期限\n                                                \n                                                \n                                                                "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12",
+        "rect": {
+          "x": 150,
+          "y": 2544,
+          "width": 1140,
+          "height": 504
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1140px",
+          "height": "504px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "4px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12\" x-data=\"{expand: false}\" wire:key=\"4\" data-has-alpine-state=\"true\">\n                        <div class=\"absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10\"></div>\n                        <div class=\"relative\">\n                            <div class=\"flex gap-x-6 lg:items-center | mb-4 lg:mb-10\">\n                                \n                                <span class=\"text-h1-lg leading-none font-bold\">4</span>\n                                <h3 class=\"text-h4 font-bold\">非本地畢業生留港／回港就業安排</h3>\n                            </div>\n                            <div class=\"flex max-lg:flex-col gap-x-10 gap-y-6 | my-6 lg:my-10\">\n                                <div class=\"flex flex-col gap-y-6\">\n                                    <div class=\"content | flex flex-col gap-y-4\">\n                                        <div class=\"font-bold\">\n                                            申請資格\n                                        </div>\n                                        <div class=\"grid  gap-8 | text-justify\">\n                                            <!--[if BLOCK]><![endif]-->                                                <div>非本地畢業生<sup>#</sup>可根據非本地畢業生留港/回港就業安排申請留港兩年尋找工作，主要申請資格包括 -</div>\n                                                <!--[if BLOCK]><![endif]-->                                                            <ul>\n                                                                <!--[if ENDBLOCK]><![endif]-->\n                                                                                                                                    <li>在香港修讀全日制經本地評審課程而獲得學士學位或更高資歷；或修讀內地與香港的大學按照《中華人民共和國中外合作辦學條例》，於粵港澳大灣區內地城市設立的高等教育合作辦學機構所提供的全日制課程而獲得學士學位或更高資歷</li>\n                                                                                                                                <li>首次入境時無須先獲得聘用(適用於應屆畢業生)</li>\n                                                                                                                                <li>如在畢業日期起計的六個月或之後申請，申請人須在提出申請時先獲得聘用，而受僱從事的工作通常是由學位持有人擔任，以及薪酬福利條件達到市場水平 (適用於非應屆畢業生)</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                            <!--[if BLOCK]><![endif]-->                                                        </ul>\n                                                <!--[if ENDBLOCK]><![endif]-->\n                                            <!--[if ENDBLOCK]><![endif]-->\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"grid transition-[grid-template-rows] transition-all ease-in-out duration-400 grid-rows-[0fr]\" :class=\"expand ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                                <div class=\"overflow-hidden\">\n                                    <!--[if BLOCK]><![endif]-->                                        <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                <div class=\"font-bold\">\n                                                    逗留期限\n                                                </div>\n                                                <div class=\"grid  gap-8\">\n                                                    <!--[if BLOCK]><![endif]-->                                                        <ul>\n                                                                                                                            <li>根據非本地畢業生留港╱回港就業安排獲准來港就業的人士，一般首次入境可獲准在港逗留 24 個月而不受其他逗留條件限制。申請延長逗留期限時，非本地畢業生須已獲得聘用，或已在香港特區開辦或參與任何業務；申請如獲批准，申請人通常會獲准以3+3年的模式獲准在港逗留，而不受其他逗留條件限制。符合頂尖人才類別資格人士一般會獲准延期逗留6年而不受其他逗留條件限制。</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                        </ul>\n                                                    <!--[if ENDBLOCK]><![endif]-->\n                                                </div>\n                                            </div>\n                                        </div>\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                                                            <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                                                                    <div class=\"text-justify\"><sup>#</sup> 本計劃不適用於阿富汗、古巴及朝鮮的國民。就老撾、尼泊爾及越南國民而言，「非本地畢業生留港／回港就業安排」只適用於(a)在香港修讀由大學教育資助委員會資助院校開辦的全日制經本地評審的本地課程而獲得學士學位或更高資歷的人士，但不包括（一）相關院校開辦的自資課程；（二）相關院校的持續及專業教育部門開辦的課程；及（三）相關院校開辦的交換生課程或短期課程；或(b)大",
+        "textContent": "4\n                                非本地畢業生留港／回港就業安排\n                            \n                            \n                                \n                                    \n                                        \n                                            申請資格\n                                        \n                                        \n                                                                                            非本地畢業生#可根據非本地畢業生留港/回港就業安排申請留港兩年尋找工作，主要申請資格包括 -\n                                                                                                            \n                                                                \n                                                                                                                                    在香港修讀全日制經本地評審課程而獲得學士學位或更高資歷；或修讀內地與香港的大學按照《中華人民共和國中外合作辦學條例》，於粵港澳大灣區內地城市設立的高等教育合作辦學機構所提供的全日制課程而獲得學士學位或更高資歷\n                                                                                                                                首次入境時無須先獲得聘用(適用於應屆畢業生)\n                                                                                                                                如在畢業日期起計的六個月或之後申請，申請人須在提出申請時先獲得聘用，而受僱從事的工作通常是由學位持有人擔任，以及薪酬福利條件達到市場水平 (適用於非應屆畢業生)\n                                                            \n                                                                                                                    \n                                                \n                                            \n                                        \n                                    \n                                \n                            \n                            \n                                \n                                                                            \n                                            \n                                                \n                                                    逗留期限\n                                      "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12",
+        "rect": {
+          "x": 150,
+          "y": 3072,
+          "width": 1140,
+          "height": 492
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1140px",
+          "height": "492px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "4px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12\" x-data=\"{expand: false}\" wire:key=\"5\" data-has-alpine-state=\"true\">\n                        <div class=\"absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10\"></div>\n                        <div class=\"relative\">\n                            <div class=\"flex gap-x-6 lg:items-center | mb-4 lg:mb-10\">\n                                \n                                <span class=\"text-h1-lg leading-none font-bold\">5</span>\n                                <h3 class=\"text-h4 font-bold\">優秀人才入境計劃</h3>\n                            </div>\n                            <div class=\"flex max-lg:flex-col gap-x-10 gap-y-6 | my-6 lg:my-10\">\n                                <div class=\"flex flex-col gap-y-6\">\n                                    <div class=\"content | flex flex-col gap-y-4\">\n                                        <div class=\"font-bold\">\n                                            申請資格\n                                        </div>\n                                        <div class=\"grid  gap-8 | text-justify\">\n                                            <!--[if BLOCK]><![endif]-->                                                <div>有意來港工作及定居，而未在港獲聘用的高技術人才或優才<sup>#</sup>，可根據優秀人才入境計劃提出申請。優秀人才入境計劃不限行業，並設有以下兩套評核機制 -</div>\n                                                <!--[if BLOCK]><![endif]-->                                                            <ul>\n                                                                <!--[if ENDBLOCK]><![endif]-->\n                                                                                                                                    <li>綜合計分制 - 適用於高技術人才或優才<ul><li>12項涵蓋六大範疇的評核準則，包括：年齡、學歷<sup>^</sup>、語文能力、工作經驗、全年收入及業務所有權</li></ul></li>\n                                                                                                                                <li>成就計分制 - 適用於擁有傑出成就的優秀人才（例如奧運獎牌、諾貝爾獎、國家/國際獎項得主）</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                            <!--[if BLOCK]><![endif]-->                                                        </ul>\n                                                <!--[if ENDBLOCK]><![endif]-->\n                                            <!--[if ENDBLOCK]><![endif]-->\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"grid transition-[grid-template-rows] transition-all ease-in-out duration-400 grid-rows-[0fr]\" :class=\"expand ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                                <div class=\"overflow-hidden\">\n                                    <!--[if BLOCK]><![endif]-->                                        <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                <div class=\"font-bold\">\n                                                    逗留期限\n                                                </div>\n                                                <div class=\"grid  gap-8\">\n                                                    <!--[if BLOCK]><![endif]-->                                                        <ul>\n                                                                                                                            <li>按本計劃「綜合計分制」獲准來港人士，一般首次入境可獲准在港逗留 36 個月而不受其他逗留條件限制。申請進一步延期逗留時，申請人須提供證明文件以證明已於香港定居及對香港有所貢獻，例如擔任學位程度、專家水平或高級的支薪職位，並且獲得穩定收入，或於香港建立或參與具合理規模的業務。獲批准延期逗留的申請人通常會以3+2年的模式獲准在港逗留，而不受其他逗留條件限制。符合頂尖人才類別資格人士一般會獲准延長逗留5年，而不受其他逗留條件限制。</li>\n                                                                                                                            <li>以「成就計分制」獲本計劃核准來港人士，一般首次入境可獲准在港逗留八年而不受其他逗留條件限制。</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                        </ul>\n                                                    <!--[if ENDBLOCK]><![endif]-->\n                                                </div>\n                                            </div>\n                                        </div>\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                                                            <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                <div class=\"font-bold\">\n                                                    人才清單\n                                                </div>\n                                                <div>\n                                                    <p>2018年制訂首份香港人才清單，旨在更有效及聚焦地吸引高質素人才，以配合香港經濟高增值及多元化的發展。經2025年檢討，清單",
+        "textContent": "5\n                                優秀人才入境計劃\n                            \n                            \n                                \n                                    \n                                        \n                                            申請資格\n                                        \n                                        \n                                                                                            有意來港工作及定居，而未在港獲聘用的高技術人才或優才#，可根據優秀人才入境計劃提出申請。優秀人才入境計劃不限行業，並設有以下兩套評核機制 -\n                                                                                                            \n                                                                \n                                                                                                                                    綜合計分制 - 適用於高技術人才或優才12項涵蓋六大範疇的評核準則，包括：年齡、學歷^、語文能力、工作經驗、全年收入及業務所有權\n                                                                                                                                成就計分制 - 適用於擁有傑出成就的優秀人才（例如奧運獎牌、諾貝爾獎、國家/國際獎項得主）\n                                                            \n                                                                                                                    \n                                                \n                                            \n                                        \n                                    \n                                \n                            \n                            \n                                \n                                                                            \n                                            \n                                                \n                                                    逗留期限\n                                                \n                                                \n                                                                                                            \n                                        "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12",
+        "rect": {
+          "x": 150,
+          "y": 3588,
+          "width": 1140,
+          "height": 616
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1140px",
+          "height": "616px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "4px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12\" x-data=\"{expand: false}\" wire:key=\"6\" data-has-alpine-state=\"true\">\n                        <div class=\"absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10\"></div>\n                        <div class=\"relative\">\n                            <div class=\"flex gap-x-6 lg:items-center | mb-4 lg:mb-10\">\n                                \n                                <span class=\"text-h1-lg leading-none font-bold\">6</span>\n                                <h3 class=\"text-h4 font-bold\">科技人才入境計劃</h3>\n                            </div>\n                            <div class=\"flex max-lg:flex-col gap-x-10 gap-y-6 | my-6 lg:my-10\">\n                                <div class=\"flex flex-col gap-y-6\">\n                                    <div class=\"content | flex flex-col gap-y-4\">\n                                        <div class=\"font-bold\">\n                                            申請資格\n                                        </div>\n                                        <div class=\"grid  gap-8 | text-justify\">\n                                            <!--[if BLOCK]><![endif]-->                                                <div>科技人才入境計劃旨在透過快速處理安排，供合資格公司申請輸入非本地科技人才到香港從事研發工作<sup>#</sup>。合資格公司須先申請配額，獲創新科技署發出配額的公司可相應地於為期 24 個月的配額有效期內為合資格人士申請工作簽證／進入許可\n                    <br><br>根據科技人才入境計劃來港就業的簽證／進入許可申請，主要申請資格包括 -</div>\n                                                <!--[if BLOCK]><![endif]-->                                                            <ul>\n                                                                <!--[if ENDBLOCK]><![endif]-->\n                                                                                                                                    <li>在遞交申請時，聘用公司獲創新科技署批出有效配額</li>\n                                                                                                                                <li>申請人主要從事先進通訊技術、人工智能、生物科技、網絡安全、數據分析、數碼娛樂、金融科技、綠色科技、集成電路設計、物聯網、材料科學、微電子、量子技術或機械人技術範疇的研發工作</li>\n                                                                                                                                <li>申請人持有具特別認受性的大學所頒授的科學、科技、工程或數學（STEM）學科學位</li>\n                                                                                                                                <li>薪酬應不低於香港類似職位現時的市場薪酬水平</li>\n                                                                                                                                <li>申請人符合創新科技署發出的獲發配額通知書上就相關職位列明的特定條件</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                            <!--[if BLOCK]><![endif]-->                                                        </ul>\n                                                <!--[if ENDBLOCK]><![endif]-->\n                                            <!--[if ENDBLOCK]><![endif]-->\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"grid transition-[grid-template-rows] transition-all ease-in-out duration-400 grid-rows-[0fr]\" :class=\"expand ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                                <div class=\"overflow-hidden\">\n                                    <!--[if BLOCK]><![endif]-->                                        <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                <div class=\"font-bold\">\n                                                    逗留期限\n                                                </div>\n                                                <div class=\"grid  gap-8\">\n                                                    <!--[if BLOCK]><![endif]-->                                                        <ul>\n                                                                                                                            <li>透過科技人才入境計劃獲准來港人士，逗留期限模式為3+3+2年</li>\n                                                                                                                            <li>符合頂尖人才類別資格人士逗留期限模式進一步放寬至3+5年，獲准延期逗留的五年不受其他逗留條件限制</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                        </ul>\n                                                    <!--[if ENDBLOCK]><![endif]-->\n                                                </div>\n                                            </div>\n                                        </div>\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                                                            <div class=\"content | border-t",
+        "textContent": "6\n                                科技人才入境計劃\n                            \n                            \n                                \n                                    \n                                        \n                                            申請資格\n                                        \n                                        \n                                                                                            科技人才入境計劃旨在透過快速處理安排，供合資格公司申請輸入非本地科技人才到香港從事研發工作#。合資格公司須先申請配額，獲創新科技署發出配額的公司可相應地於為期 24 個月的配額有效期內為合資格人士申請工作簽證／進入許可\n                    根據科技人才入境計劃來港就業的簽證／進入許可申請，主要申請資格包括 -\n                                                                                                            \n                                                                \n                                                                                                                                    在遞交申請時，聘用公司獲創新科技署批出有效配額\n                                                                                                                                申請人主要從事先進通訊技術、人工智能、生物科技、網絡安全、數據分析、數碼娛樂、金融科技、綠色科技、集成電路設計、物聯網、材料科學、微電子、量子技術或機械人技術範疇的研發工作\n                                                                                                                                申請人持有具特別認受性的大學所頒授的科學、科技、工程或數學（STEM）學科學位\n                                                                                                                                薪酬應不低於香港類似職位現時的市場薪酬水平\n                                                                                                                                申請人符合創新科技署發出的獲發配額通知書上就相關職位列明的特定條件\n                                                            \n                                                                                                                    \n                                                \n                                            \n                                        \n                                    \n                        "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12",
+        "rect": {
+          "x": 150,
+          "y": 4228,
+          "width": 1140,
+          "height": 504
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1140px",
+          "height": "504px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "4px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"scheme | relative | rounded border border-light-grey-100 | py-8 px-5 lg:px-12\" x-data=\"{expand: false}\" wire:key=\"7\" data-has-alpine-state=\"true\">\n                        <div class=\"absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10\"></div>\n                        <div class=\"relative\">\n                            <div class=\"flex gap-x-6 lg:items-center | mb-4 lg:mb-10\">\n                                \n                                <span class=\"text-h1-lg leading-none font-bold\">7</span>\n                                <h3 class=\"text-h4 font-bold\">輸入中國籍香港永久性居民第二代計劃</h3>\n                            </div>\n                            <div class=\"flex max-lg:flex-col gap-x-10 gap-y-6 | my-6 lg:my-10\">\n                                <div class=\"flex flex-col gap-y-6\">\n                                    <div class=\"content | flex flex-col gap-y-4\">\n                                        <div class=\"font-bold\">\n                                            申請資格\n                                        </div>\n                                        <div class=\"grid  gap-8 | text-justify\">\n                                            <!--[if BLOCK]><![endif]-->                                                <div>已移居海外的中國籍香港永久性居民的第二代<sup>#</sup>，可根據此計劃申請來港。計劃不限行業，申請人在首次入境時無須先獲得聘用。計劃主要申請資格包括 -</div>\n                                                <!--[if BLOCK]><![endif]-->                                                            <ul>\n                                                                <!--[if ENDBLOCK]><![endif]-->\n                                                                                                                                    <li>年齡介乎18至40歲；在海外出生</li>\n                                                                                                                                <li>父或母至少一方在申請人提出申請時持有有效的香港永久性居民身份證，及在其出生時是已定居海外的中國籍人士*</li>\n                                                                                                                                <li>具有良好教育背景（通常指持有學士學位）、技術資格或經證明的專業經驗</li>\n                                                                                                                                <li>具備良好中文或英文的書寫及口語能力（普通話或粵語）</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                            <!--[if BLOCK]><![endif]-->                                                        </ul>\n                                                <!--[if ENDBLOCK]><![endif]-->\n                                            <!--[if ENDBLOCK]><![endif]-->\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"grid transition-[grid-template-rows] transition-all ease-in-out duration-400 grid-rows-[0fr]\" :class=\"expand ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                                <div class=\"overflow-hidden\">\n                                    <!--[if BLOCK]><![endif]-->                                        <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                <div class=\"font-bold\">\n                                                    逗留期限\n                                                </div>\n                                                <div class=\"grid  gap-8\">\n                                                    <!--[if BLOCK]><![endif]-->                                                        <ul>\n                                                                                                                            <li>根據輸入中國籍香港永久性居民第二代計劃獲准來港人士，一般首次入境可獲准在港逗留 24 個月而不受其他逗留條件限制。申請延長逗留期限時，申請人須已獲得聘用，或已在香港開辦或參與任何業務。申請如獲批准，申請人通常會獲准以3+3年的模式獲准延長逗留，而不受其他逗留條件限制。符合頂尖人才類別資格人士年一般會獲准延期逗留6年而不受其他逗留條件限制。</li>\n                                                            <!--[if ENDBLOCK]><![endif]-->\n                                                        </ul>\n                                                    <!--[if ENDBLOCK]><![endif]-->\n                                                </div>\n                                            </div>\n                                        </div>\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                                                            <div class=\"content | border-t border-dark-grey-75 | py-10\">\n                                            <div class=\"flex flex-col gap-y-4\">\n                                                                                                    <div class=\"text-justify\"><sup>#</sup> 本計劃不適用於阿富汗、古巴及朝鮮的國⺠</div>\n                                                                            ",
+        "textContent": "7\n                                輸入中國籍香港永久性居民第二代計劃\n                            \n                            \n                                \n                                    \n                                        \n                                            申請資格\n                                        \n                                        \n                                                                                            已移居海外的中國籍香港永久性居民的第二代#，可根據此計劃申請來港。計劃不限行業，申請人在首次入境時無須先獲得聘用。計劃主要申請資格包括 -\n                                                                                                            \n                                                                \n                                                                                                                                    年齡介乎18至40歲；在海外出生\n                                                                                                                                父或母至少一方在申請人提出申請時持有有效的香港永久性居民身份證，及在其出生時是已定居海外的中國籍人士*\n                                                                                                                                具有良好教育背景（通常指持有學士學位）、技術資格或經證明的專業經驗\n                                                                                                                                具備良好中文或英文的書寫及口語能力（普通話或粵語）\n                                                            \n                                                                                                                    \n                                                \n                                            \n                                        \n                                    \n                                \n                            \n                            \n                                \n                                                                            \n                                            \n                                                \n                      "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "block | relative z-30 | bg-[#232323] | pt-16 | text-xs",
+        "rect": {
+          "x": 0,
+          "y": 6263,
+          "width": 1440,
+          "height": 621.078125
+        },
+        "computedStyles": {
+          "display": "block",
+          "position": "relative",
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "width": "1440px",
+          "height": "621.078px",
+          "zIndex": "30",
+          "backgroundColor": "rgb(35, 35, 35)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<footer wire:snapshot=\"{&quot;data&quot;:{&quot;email&quot;:&quot;&quot;,&quot;return_message&quot;:&quot;&quot;,&quot;error_message&quot;:&quot;&quot;,&quot;submitting&quot;:false},&quot;memo&quot;:{&quot;id&quot;:&quot;uYWiUPOGVhaBeUnKyUDB&quot;,&quot;name&quot;:&quot;common.footer&quot;,&quot;path&quot;:&quot;zh-HK\\/how-to-apply-for-a-visa&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;zh-HK&quot;},&quot;checksum&quot;:&quot;18f6f76627f7adba588b6e0ab81f779ecc12bb0052ef614b5f8f72b115286d5b&quot;}\" wire:effects=\"[]\" wire:id=\"uYWiUPOGVhaBeUnKyUDB\" class=\"block | relative z-30 | bg-[#232323] | pt-16 | text-xs\" x-data=\"{color: 'white'}\">\n    <div class=\"w-full max-w-[1440px] | mx-auto px-5 min-[1400px]:px-12\">\n        <div class=\"flex max-lg:flex-col justify-between | lg:pb-12 | border-grey-border lg:border-b\">\n            <div class=\"w-full max-w-[300px] | text-white\">\n                <a href=\"https://www.hkengage.gov.hk/zh-HK\" class=\"inline-block | w-[140px]\" title=\"人才服務辦公室\">\n                    <!--[if BLOCK]><![endif]-->                        <svg class=\"hkte-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 390.07\">\n    <g>\n        <rect fill=\"#f85723\" x=\"80.47\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#8ec63e\" x=\"260.16\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n        <rect fill=\"#672f8e\" x=\"439.84\" y=\"306.09\" width=\"179.69\" height=\"23.88\"></rect>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M537.56,154.6v-31.64h46.48c15.86,0,21.83-19.75,22.07-20.59l1.03-3.49h-69.59v-31.67h61.72c9.14,0,20.12-12.9,20.12-21v-3.06h-120.12v135.53h100.1c9.15,0,20.14-12.91,20.14-21.02v-3.06h-81.96Z\" fill=\"white\"></path>\n    <g>\n        <path :fill=\"color ?? 'white'\" d=\"M296.95,43.15c-4.99,0-10.71.81-15.41,6.22l-35.86,44.06-.22.27c-.72.72-4.3,4-9.65,4-.04,0-.07,0-.11,0h-1.85v-54.55h-38.28v135.53h10.07c15.56,0,28.22-13.35,28.22-29.77v-27.31h8.34c6.6.24,16.71-2.17,27.44-14.99.4-.42.83-.94,1.32-1.57.7-.86,1.39-1.75,2.06-2.69l.26-.36c.07-.08.13-.16.2-.24l48.83-58.61h-25.35Z\" fill=\"white\"></path>\n        <path :fill=\"color ?? 'white'\" d=\"M289.51,128.95c-7.63-9.99-16.49-9.78-18-9.67h-29.75l38.81,50.46c.65.91,6.75,8.94,18.32,8.94h28.73l-38.11-49.73Z\" fill=\"white\"></path>\n    </g>\n    <path :fill=\"color ?? 'white'\" d=\"M352.68,24.06h116.76c9.14,0,20.12-12.9,20.12-21V0h-136.89v24.06Z\" fill=\"white\"></path>\n    <path :fill=\"color ?? 'white'\" d=\"M118.75,97.65v-54.5h-38.28v135.53h10.05c15.57,0,28.23-13.36,28.23-29.79v-27.19h39.19c9.14,0,20.12-12.9,20.12-21v-3.06h-59.31Z\" fill=\"white\"></path>\n    <g>\n        <g>\n            <path :fill=\"color ?? 'white'\" d=\"M273.19,217.69l-17.23-22.03c-1.52-1.94-3.85-3.08-6.32-3.08h-2.05v38.1s1.21,0,1.21,0c3.42,0,6.2-2.77,6.2-6.2v-18.27l16.53,20.82c1.83,2.3,4.61,3.65,7.55,3.65h1.46v-38.04h-1.29c-3.18,0-6.06,2.71-6.06,6.07v18.99Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M306.67,216.34h6.07c.87,0,1.58.71,1.58,1.58v1.05c-1.38,1.61-2.84,2.86-4.39,3.74-1.75,1-3.6,1.5-5.56,1.5-1.64,0-3.14-.32-4.49-.96-1.36-.64-2.54-1.54-3.56-2.7-1.02-1.16-1.8-2.5-2.35-4.04-.55-1.53-.83-3.21-.83-5.03,0-1.71.25-3.33.75-4.87.5-1.53,1.23-2.89,2.19-4.06.96-1.18,2.11-2.1,3.45-2.78,1.34-.68,2.81-1.02,4.41-1.02,2.03,0,3.92.5,5.67,1.5,1.75,1,3.08,2.44,4.01,4.33l5.51-4.06c-1.28-2.53-3.2-4.55-5.75-6.04-2.55-1.5-5.63-2.25-9.23-2.25-2.6,0-5.03.49-7.27,1.47-2.25.98-4.2,2.35-5.86,4.12-1.66,1.76-2.96,3.8-3.91,6.1-.94,2.3-1.42,4.75-1.42,7.35,0,2.78.46,5.34,1.39,7.67.93,2.34,2.22,4.4,3.88,6.18,1.66,1.78,3.57,3.16,5.75,4.15,2.17.98,4.51,1.47,7.01,1.47,4.01,0,7.54-1.51,10.59-4.53v4.27h6.1v-14.05c0-3.02-2.45-5.47-5.47-5.47h-8.28v5.4Z\" fill=\"white\"></path>\n            <path :fill=\"color ?? 'white'\" d=\"M236.86,198.32c-1.6-1.85-3.54-3.33-5.8-4.44-2.26-1.11-4.77-1.66-7.51-1.66s-5.15.53-7.43,1.58c-2.28,1.05-4.25,2.48-5.91,4.28-1.66,1.8-2.96,3.85-3.9,6.15-.95,2.3-1.42,4.71-1.42,7.25s.44,4.79,1.34,7.09c.89,2.3,2.16,4.37,3.8,6.2,1.64,1.84,3.58,3.29,5.83,4.36,2.25,1.07,4.76,1.6,7.54,1.6s5.14-.52,7.41-1.55c2.26-1.03,4.23-2.45,5.88-4.25,1.66-1.8,2.94-3.85,3.85-6.15.91-2.3,1.36-4.7,1.36-7.19s-.44-4.78-1.31-7.06c-.88-2.28-2.11-4.35-3.72-6.2ZM233.76,216.08c-.46,1.53-1.17,2.91-2.11,4.12-.95,1.21-2.09,2.18-3.45,2.91-1.36.73-2.94,1.1-4.76,1.1s-3.31-.35-4.68-1.04c-1.37-.7-2.53-1.64-3.48-2.84-.95-1.19-1.67-2.56-2.17-4.09-.5-1.53-.75-3.12-.75-4.76s.24-3.11.72-4.63c.48-1.52,1.19-2.87,2.14-4.06.94-1.19,2.1-2.16,3.48-2.89,1.37-.73,2.93-1.1,4.68-1.1s3.3.35,4.65,1.04c1.35.7,2.51,1.64,3.48,2.83.96,1.2,1.69,2.55,2.19,4.06.5,1.52.75,3.09.75,4.73,0,1.53-.23,3.07-.7,4.6Z\" fill=\"white\"></path>\n            <g>\n                <path :fill=\"color ?? 'white'\" d=\"M205.5,192.52h-6.04c-1.48,0-2.92.2-4.11,1.5l-11.11,12.87s-1.33,1.54-2.7,1.54h-.83v-15.93h-7.43v37.97h.25c3.64,0,7.18-2.95,7.18-6.59v-10.07h1.83c2.14.07,4.95-.85,7.83-4.11.12-.12.25-.27.38-.43.21-.24.41-.49.61-.75h-.01c.06-.08.13-.15.19-.22l13.96-",
+        "textContent": "灣仔告士打道5號稅務大樓12樓（需提前預約安排）\n                    \n                    enquiry@hkengage.gov.hk\n                \n                \n                                                                                            \n                                \n                                \n                                                            \n                        \n                                                                        \n                                \n                                \n                                                            \n                        \n                                                                        \n                                \n                                \n                                                            \n                        \n                                                                        \n                                \n                                \n                                                            \n                        \n                                                                        \n                        \n                                \n                                                            \n                        \n                                                                        \n                                \n                                \n                                                            \n                        \n                    \n                \n                \n                    訂閱電子報\n                                            \n                            \n                            \n                            \n                                \n                                    \n    \n\n                                \n                            \n                            \n                        \n                        \n                    \n                \n            \n            \n                    "
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "lg:flex flex-col gap-y-4 | lg:w-44 xl:w-52",
+        "rect": {
+          "x": 464,
+          "y": 6327,
+          "width": 208,
+          "height": 353
+        },
+        "computedStyles": {
+          "display": "flex",
+          "position": "static",
+          "top": "auto",
+          "right": "auto",
+          "bottom": "auto",
+          "left": "auto",
+          "width": "208px",
+          "height": "353px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"lg:flex flex-col gap-y-4 | lg:w-44 xl:w-52\" x-data=\"{open: false, isMobile: window.innerWidth &lt; 1024}\" @resize.window=\"isMobile = window.innerWidth &lt; 1024\">\n                        <button type=\"button\" class=\"w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-bold text-white text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded lg:pointer-events-none\" @click=\"open = !open\" :aria-expanded=\"open\" :tabindex=\"isMobile ? '0' : '-1'\" aria-expanded=\"false\" tabindex=\"-1\">\n                            就業資訊\n                            <svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"lg:hidden | cursor-pointer transition-all ease-in-out duration-200 rotate-0\" :class=\"open ? 'rotate-180' : 'rotate-0'\" aria-hidden=\"true\">\n                                <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>\n                        </button>\n                        <div class=\"max-lg:grid transition-[grid-template-rows] | transition-all ease-in-out duration-200 grid-rows-[0fr]\" :class=\"open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                            <div class=\"overflow-hidden\">\n                                <div class=\"flex flex-col gap-y-4 | max-lg:pt-4\">\n                                    <!--[if BLOCK]><![endif]-->                                        <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/jobs-and-salaries/hot-jobs\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">工作機會</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                            <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/jobs-and-salaries/salary-index\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">薪酬指數</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                            <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/talent-list\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">人才清單</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                </div>\n                            </div>\n                        </div>\n                    </div>",
+        "textContent": "就業資訊\n                            \n                                \n                            \n                        \n                        \n                            \n                                \n                                                                                                                        工作機會\n                                        \n                                                                                                                        薪酬指數\n                                        \n                                                                                                                        人才清單"
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "lg:flex flex-col gap-y-4 | lg:w-44 xl:w-52",
+        "rect": {
+          "x": 704,
+          "y": 6327,
+          "width": 208,
+          "height": 353
+        },
+        "computedStyles": {
+          "display": "flex",
+          "position": "static",
+          "top": "auto",
+          "right": "auto",
+          "bottom": "auto",
+          "left": "auto",
+          "width": "208px",
+          "height": "353px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"lg:flex flex-col gap-y-4 | lg:w-44 xl:w-52\" x-data=\"{open: false, isMobile: window.innerWidth &lt; 1024}\" @resize.window=\"isMobile = window.innerWidth &lt; 1024\">\n                        <button type=\"button\" class=\"w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-bold text-white text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded lg:pointer-events-none\" @click=\"open = !open\" :aria-expanded=\"open\" :tabindex=\"isMobile ? '0' : '-1'\" aria-expanded=\"false\" tabindex=\"-1\">\n                            活動情報及最新消息\n                            <svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"lg:hidden | cursor-pointer transition-all ease-in-out duration-200 rotate-0\" :class=\"open ? 'rotate-180' : 'rotate-0'\" aria-hidden=\"true\">\n                                <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>\n                        </button>\n                        <div class=\"max-lg:grid transition-[grid-template-rows] | transition-all ease-in-out duration-200 grid-rows-[0fr]\" :class=\"open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                            <div class=\"overflow-hidden\">\n                                <div class=\"flex flex-col gap-y-4 | max-lg:pt-4\">\n                                    <!--[if BLOCK]><![endif]-->                                        <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/events\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">活動及專題講座登記</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                            <!--[if BLOCK]><![endif]-->                                            <a href=\"https://gts.hkengage.gov.hk/zh-HK\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" target=\"_blank\" rel=\"noreferrer noopener\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">全球人才高峰會周</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                            <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/media/news\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">最新消息</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                </div>\n                            </div>\n                        </div>\n                    </div>",
+        "textContent": "活動情報及最新消息\n                            \n                                \n                            \n                        \n                        \n                            \n                                \n                                                                                                                        活動及專題講座登記\n                                        \n                                                                                                                        全球人才高峰會周\n                                        \n                                                                                                                        最新消息"
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "lg:flex flex-col gap-y-4 | lg:w-44 xl:w-52",
+        "rect": {
+          "x": 944,
+          "y": 6327,
+          "width": 208,
+          "height": 353
+        },
+        "computedStyles": {
+          "display": "flex",
+          "position": "static",
+          "top": "auto",
+          "right": "auto",
+          "bottom": "auto",
+          "left": "auto",
+          "width": "208px",
+          "height": "353px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"lg:flex flex-col gap-y-4 | lg:w-44 xl:w-52\" x-data=\"{open: false, isMobile: window.innerWidth &lt; 1024}\" @resize.window=\"isMobile = window.innerWidth &lt; 1024\">\n                        <button type=\"button\" class=\"w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-bold text-white text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded lg:pointer-events-none\" @click=\"open = !open\" :aria-expanded=\"open\" :tabindex=\"isMobile ? '0' : '-1'\" aria-expanded=\"false\" tabindex=\"-1\">\n                            人才支援\n                            <svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"lg:hidden | cursor-pointer transition-all ease-in-out duration-200 rotate-0\" :class=\"open ? 'rotate-180' : 'rotate-0'\" aria-hidden=\"true\">\n                                <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>\n                        </button>\n                        <div class=\"max-lg:grid transition-[grid-template-rows] | transition-all ease-in-out duration-200 grid-rows-[0fr]\" :class=\"open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                            <div class=\"overflow-hidden\">\n                                <div class=\"flex flex-col gap-y-4 | max-lg:pt-4\">\n                                    <!--[if BLOCK]><![endif]-->                                        <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/about-us\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">關於我們</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                            <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/contact-us\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">聯絡我們</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                            <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/partners\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">指定合作夥伴</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                            <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/supporting-services\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">支援服務</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                </div>\n                            </div>\n                        </div>\n                    </div>",
+        "textContent": "人才支援\n                            \n                                \n                            \n                        \n                        \n                            \n                                \n                                                                                                                        關於我們\n                                        \n                                                                                                                        聯絡我們\n                                        \n                                                                                                                        指定合作夥伴\n                                        \n                                                                                                                        支援服務"
+      },
+      {
+        "selector": "[x-data]",
+        "tag": "DIV",
+        "id": "",
+        "classes": "lg:flex flex-col gap-y-4 | lg:w-44 xl:w-52",
+        "rect": {
+          "x": 1184,
+          "y": 6327,
+          "width": 208,
+          "height": 353
+        },
+        "computedStyles": {
+          "display": "flex",
+          "position": "static",
+          "top": "auto",
+          "right": "auto",
+          "bottom": "auto",
+          "left": "auto",
+          "width": "208px",
+          "height": "353px",
+          "zIndex": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "transform": "none",
+          "boxShadow": "none",
+          "borderRadius": "0px",
+          "overflow": "visible"
+        },
+        "outerHTML": "<div class=\"lg:flex flex-col gap-y-4 | lg:w-44 xl:w-52\" x-data=\"{open: false, isMobile: window.innerWidth &lt; 1024}\" @resize.window=\"isMobile = window.innerWidth &lt; 1024\">\n                        <button type=\"button\" class=\"w-full flex justify-between items-center | max-lg:py-3 | max-lg:border-b border-grey-border | font-bold text-white text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded lg:pointer-events-none\" @click=\"open = !open\" :aria-expanded=\"open\" :tabindex=\"isMobile ? '0' : '-1'\" aria-expanded=\"false\" tabindex=\"-1\">\n                            其他\n                            <svg width=\"20\" height=\"21\" viewBox=\"0 0 20 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"lg:hidden | cursor-pointer transition-all ease-in-out duration-200 rotate-0\" :class=\"open ? 'rotate-180' : 'rotate-0'\" aria-hidden=\"true\">\n                                <path d=\"M6 8.5L10 12.5L14 8.5\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                            </svg>\n                        </button>\n                        <div class=\"max-lg:grid transition-[grid-template-rows] | transition-all ease-in-out duration-200 grid-rows-[0fr]\" :class=\"open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'\">\n                            <div class=\"overflow-hidden\">\n                                <div class=\"flex flex-col gap-y-4 | max-lg:pt-4\">\n                                    <!--[if BLOCK]><![endif]-->                                        <!--[if BLOCK]><![endif]-->                                            <a href=\"https://www.hkengage.gov.hk/zh-HK/faq\" class=\"block | text-white | opacity-70 hover:opacity-100 | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">常見問題</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                                                            <!--[if BLOCK]><![endif]-->                                            <a href=\"/assets/pdf/Toolkit2024_TC.pdf\" class=\"block | text-light-red font-bold | hover:text-red | transition-all ease-in-out duration-200 | focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded focus-visible:opacity-100\" target=\"_blank\" rel=\"noreferrer noopener\" :tabindex=\"(isMobile &amp;&amp; !open) ? '-1' : '0'\" tabindex=\"0\">移居香港指南</a>\n                                        <!--[if ENDBLOCK]><![endif]-->\n                                    <!--[if ENDBLOCK]><![endif]-->\n                                </div>\n                            </div>\n                        </div>\n                    </div>",
+        "textContent": "其他\n                            \n                                \n                            \n                        \n                        \n                            \n                                \n                                                                                                                        常見問題\n                                        \n                                                                                                                        移居香港指南"
+      }
+    ],
+    "livewireComponents": [
+      {
+        "tag": "DIV",
+        "id": "header",
+        "wireId": "jD6SGlJzDpqhde1GbWHZ",
+        "classes": "fixed left-0 top-0 z-50 | w-screen"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "wireId": "iEIqQGgpEEu1dPXahjLp",
+        "classes": ""
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "wireId": "pui7qq3CEKN2qrwYze5n",
+        "classes": "container-content |  mb-10 lg:mb-20 "
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "wireId": "uYWiUPOGVhaBeUnKyUDB",
+        "classes": "block | relative z-30 | bg-[#232323] | pt-16 | text-xs"
+      }
+    ],
+    "floatingElements": [
+      {
+        "tag": "DIV",
+        "id": "header",
+        "classes": "fixed left-0 top-0 z-50 | w-screen",
+        "position": "fixed",
+        "zIndex": "50",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 109
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "mask mask-n",
+        "position": "fixed",
+        "zIndex": "auto",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "max-md:h-[480px] fixed bottom-0 left-0 | py-6 md:pt-9 md:pb-12 | w-full | z-40",
+        "position": "fixed",
+        "zIndex": "40",
+        "rect": {
+          "x": 0,
+          "y": 586,
+          "width": 1440,
+          "height": 314
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "mask-container | absolute inset-0 | size-full | bg-purple | bg-left-bottom bg-no-repeat",
+        "position": "absolute",
+        "zIndex": "auto",
+        "rect": {
+          "x": 0,
+          "y": 586,
+          "width": 1440,
+          "height": 314
+        },
+        "backgroundColor": "rgb(77, 45, 82)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "mask mask-n",
+        "position": "fixed",
+        "zIndex": "auto",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10",
+        "position": "absolute",
+        "zIndex": "-10",
+        "rect": {
+          "x": 151,
+          "y": 921,
+          "width": 1138,
+          "height": 474
+        },
+        "backgroundColor": "rgb(245, 245, 245)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10",
+        "position": "absolute",
+        "zIndex": "-10",
+        "rect": {
+          "x": 151,
+          "y": 1421,
+          "width": 1138,
+          "height": 626
+        },
+        "backgroundColor": "rgb(245, 245, 245)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10",
+        "position": "absolute",
+        "zIndex": "-10",
+        "rect": {
+          "x": 151,
+          "y": 2073,
+          "width": 1138,
+          "height": 446
+        },
+        "backgroundColor": "rgb(245, 245, 245)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10",
+        "position": "absolute",
+        "zIndex": "-10",
+        "rect": {
+          "x": 151,
+          "y": 2545,
+          "width": 1138,
+          "height": 502
+        },
+        "backgroundColor": "rgb(245, 245, 245)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10",
+        "position": "absolute",
+        "zIndex": "-10",
+        "rect": {
+          "x": 151,
+          "y": 3073,
+          "width": 1138,
+          "height": 490
+        },
+        "backgroundColor": "rgb(245, 245, 245)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10",
+        "position": "absolute",
+        "zIndex": "-10",
+        "rect": {
+          "x": 151,
+          "y": 3589,
+          "width": 1138,
+          "height": 614
+        },
+        "backgroundColor": "rgb(245, 245, 245)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "absolute inset-0 | size-full | bg-light-grey-25 | opacity-70 | -z-10",
+        "position": "absolute",
+        "zIndex": "-10",
+        "rect": {
+          "x": 151,
+          "y": 4229,
+          "width": 1138,
+          "height": 502
+        },
+        "backgroundColor": "rgb(245, 245, 245)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "relative lg:absolute max-lg:left-[20%] max-lg:bottom-6 lg:top-1/2 right-0 | bg-purple | text-white | px-5 py-6 sm:p-10 | w-4/5 max-w-[480px] | lg:-translate-y-1/2",
+        "position": "absolute",
+        "zIndex": "auto",
+        "rect": {
+          "x": 810,
+          "y": 4899.25,
+          "width": 480,
+          "height": 265
+        },
+        "backgroundColor": "rgb(77, 45, 82)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "relative lg:absolute max-lg:-right-[20%] max-lg:bottom-6 lg:top-1/2 left-0 | bg-highlight-orange | text-white | px-5 py-6 sm:p-10 | w-4/5 max-w-[480px] | lg:-translate-y-1/2",
+        "position": "absolute",
+        "zIndex": "auto",
+        "rect": {
+          "x": 150,
+          "y": 5415,
+          "width": 480,
+          "height": 265
+        },
+        "backgroundColor": "rgb(240, 90, 48)"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "relative lg:absolute max-lg:left-[20%] max-lg:bottom-6 lg:top-1/2 right-0 | bg-purple | text-white | px-5 py-6 sm:p-10 | w-4/5 max-w-[480px] | lg:-translate-y-1/2",
+        "position": "absolute",
+        "zIndex": "auto",
+        "rect": {
+          "x": 810,
+          "y": 5930.75,
+          "width": 480,
+          "height": 265
+        },
+        "backgroundColor": "rgb(77, 45, 82)"
+      }
+    ],
+    "openPopovers": []
+  }
+}
